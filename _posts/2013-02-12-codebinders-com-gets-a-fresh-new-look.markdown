@@ -1,0 +1,15 @@
+---
+author: kaustav
+comments: true
+date: 2013-02-12 20:37:01+00:00
+layout: post
+slug: codebinders-com-gets-a-fresh-new-look
+title: CodeBinders.com gets a fresh new look
+wordpress_id: 529
+categories:
+- CodeBinders
+tags:
+- web development
+---
+
+We have just launched a fresh new look of [CodeBinders.com](http://www.codebinders.com). This is the first public launch of the website. It uses a simple, lucid and responsive layout. Something out of the box. Something that signifies [CodeBinders](http://www.codebinders.com).
