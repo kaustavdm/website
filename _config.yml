@@ -26,4 +26,4 @@ permalink: /:year/:month/:slug.html
 
 paginate: 4
 
-
+exclude: [scripts/, README.md, Gemfile, Gemfile.lock]
