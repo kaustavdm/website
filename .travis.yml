@@ -25,6 +25,7 @@ env:
   - JEKYLL_ENV=production
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: ./scripts/cideploy.sh
   on:
