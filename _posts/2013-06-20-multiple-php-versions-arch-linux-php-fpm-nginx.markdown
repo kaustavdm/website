@@ -73,7 +73,7 @@ There are three main steps involved in installing multiple PHP versions:
 
 
 
-PHP 5.3.26 complete source code can be downloaded in either [tar.bz2](http://php.net/get/php-5.3.26.tar.bz2/from/a/mirror) or in [tar.gz](http://php.net/get/php-5.3.26.tar.gz/from/a/mirror) format from the [PHP downloads](php.net/downloads.php) page.
+PHP 5.3.26 complete source code can be downloaded in either [tar.bz2](http://php.net/get/php-5.3.26.tar.bz2/from/a/mirror) or in [tar.gz](http://php.net/get/php-5.3.26.tar.gz/from/a/mirror) format from the [PHP downloads](http://php.net/downloads.php) page.
 
 
 

@@ -18,22 +18,22 @@ Here are some screenshots of the Kubuntu 9.10 Karmic Koala with/without Compiz:
 
 [![Kubuntu 9.10 Desktop](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRU5zkT0qI/AAAAAAAAADY/yIR7qVX27uY/s200/snapshot1.png)](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRU5zkT0qI/AAAAAAAAADY/yIR7qVX27uY/s1600/snapshot1.png)
 
-[![](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVEv-jXkI/AAAAAAAAADg/T-_YTjeQsQw/s200/snapshot2.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVEv-jXkI/AAAAAAAAADg/T-_YTjeQsQw/s1600/snapshot2.png)
+[![Snapshot 2](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVEv-jXkI/AAAAAAAAADg/T-_YTjeQsQw/s200/snapshot2.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVEv-jXkI/AAAAAAAAADg/T-_YTjeQsQw/s1600/snapshot2.png)
 
 [![Kubuntu 9.10 Desktop switching using Compiz window manager.](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVIt-_EKI/AAAAAAAAADo/2EfWWGGYo4Y/s200/snapshot3.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVIt-_EKI/AAAAAAAAADo/2EfWWGGYo4Y/s1600/snapshot3.png)
 
-[![](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVNLKCGBI/AAAAAAAAADw/Vp95QzaFugw/s200/snapshot4.png)](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVNLKCGBI/AAAAAAAAADw/Vp95QzaFugw/s1600/snapshot4.png)
+[![Snapshot 4](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVNLKCGBI/AAAAAAAAADw/Vp95QzaFugw/s200/snapshot4.png)](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVNLKCGBI/AAAAAAAAADw/Vp95QzaFugw/s1600/snapshot4.png)
 
-[![](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVRBWhqtI/AAAAAAAAAD4/XYS2Gjzqao8/s200/snapshot5.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVRBWhqtI/AAAAAAAAAD4/XYS2Gjzqao8/s1600/snapshot5.png)
+[![Snapshot 5](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVRBWhqtI/AAAAAAAAAD4/XYS2Gjzqao8/s200/snapshot5.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVRBWhqtI/AAAAAAAAAD4/XYS2Gjzqao8/s1600/snapshot5.png)
 
-[![](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVUaVx6SI/AAAAAAAAAEA/E2iS_IYjC8k/s200/snapshot6.png)](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVUaVx6SI/AAAAAAAAAEA/E2iS_IYjC8k/s1600/snapshot6.png)
+[![Snapshot 6](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVUaVx6SI/AAAAAAAAAEA/E2iS_IYjC8k/s200/snapshot6.png)](http://1.bp.blogspot.com/_cTMwx-Cbjjo/SwRVUaVx6SI/AAAAAAAAAEA/E2iS_IYjC8k/s1600/snapshot6.png)
 
-[![](http://2.bp.blogspot.com/_cTMwx-Cbjjo/SwRVWrCdBaI/AAAAAAAAAEI/bbwF2KCSyz8/s200/snapshot7.png)](http://2.bp.blogspot.com/_cTMwx-Cbjjo/SwRVWrCdBaI/AAAAAAAAAEI/bbwF2KCSyz8/s1600/snapshot7.png)
+[![Snapshot 7](http://2.bp.blogspot.com/_cTMwx-Cbjjo/SwRVWrCdBaI/AAAAAAAAAEI/bbwF2KCSyz8/s200/snapshot7.png)](http://2.bp.blogspot.com/_cTMwx-Cbjjo/SwRVWrCdBaI/AAAAAAAAAEI/bbwF2KCSyz8/s1600/snapshot7.png)
 
-[![](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVaoIOa2I/AAAAAAAAAEQ/EG-wgPvm4nQ/s200/snapshot8.png)](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVaoIOa2I/AAAAAAAAAEQ/EG-wgPvm4nQ/s1600/snapshot8.png)
+[![Snapshot 8](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVaoIOa2I/AAAAAAAAAEQ/EG-wgPvm4nQ/s200/snapshot8.png)](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVaoIOa2I/AAAAAAAAAEQ/EG-wgPvm4nQ/s1600/snapshot8.png)
 
-[![](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVh15x5KI/AAAAAAAAAEY/UDhWE520Pfk/s200/snapshot9.png)](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVh15x5KI/AAAAAAAAAEY/UDhWE520Pfk/s1600/snapshot9.png)
+[![Snapshot 9](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVh15x5KI/AAAAAAAAAEY/UDhWE520Pfk/s200/snapshot9.png)](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVh15x5KI/AAAAAAAAAEY/UDhWE520Pfk/s1600/snapshot9.png)
 
-[![](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVln-nECI/AAAAAAAAAEg/lZNJFkoGavM/s200/snapshot10.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVln-nECI/AAAAAAAAAEg/lZNJFkoGavM/s1600/snapshot10.png)
+[![Snapshot 10](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVln-nECI/AAAAAAAAAEg/lZNJFkoGavM/s200/snapshot10.png)](http://4.bp.blogspot.com/_cTMwx-Cbjjo/SwRVln-nECI/AAAAAAAAAEg/lZNJFkoGavM/s1600/snapshot10.png)
 
-[![](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVprVmA0I/AAAAAAAAAEo/6_TMw7T8GXo/s200/snapshot11.png)](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVprVmA0I/AAAAAAAAAEo/6_TMw7T8GXo/s1600/snapshot11.png)
+[![Snapshot 11](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVprVmA0I/AAAAAAAAAEo/6_TMw7T8GXo/s200/snapshot11.png)](http://3.bp.blogspot.com/_cTMwx-Cbjjo/SwRVprVmA0I/AAAAAAAAAEo/6_TMw7T8GXo/s1600/snapshot11.png)

@@ -10,7 +10,7 @@ categories:
 - Photography
 ---
 
-[![](http://lh6.ggpht.com/_cTMwx-Cbjjo/TDj5DuUYa0E/AAAAAAAAAUA/rp6FOLX4wFA/s160-c/JadavpurChronicles.jpg)](http://goo.gl/photos/tdtoaA4mN5)
+[![Jadavpur University](http://lh6.ggpht.com/_cTMwx-Cbjjo/TDj5DuUYa0E/AAAAAAAAAUA/rp6FOLX4wFA/s160-c/JadavpurChronicles.jpg)](http://goo.gl/photos/tdtoaA4mN5)
 
 
 Some photos shot at Jadavpur University: [http://goo.gl/photos/tdtoaA4mN5](http://goo.gl/photos/tdtoaA4mN5).
