@@ -8,11 +8,11 @@ title: About Kaustav
 wordpress_id: 24
 ---
 
-Meet Kaustav Das Modak, an **open-source evangelist** by passion. He is an application developer at [ThoughtWorks](http://thoughtworks.com). He also co-founded and serves as the CTO for [Applait](http://applait.com), currently focusing on creating a unified communications platform.
+Meet Kaustav Das Modak, an **open-source evangelist** by passion. He is an application developer at [ThoughtWorks](http://thoughtworks.com). He also co-founded [Applait](http://applait.com) an organization currently focusing on creating an open, unified communications platform.
 
-He volunteers as a [Mozilla Representative](https://reps.mozilla.org/u/kaustavdm/) and co-ordinates [community evangelism](http://wiki.mozillaindia.org/Task_force/Evangelism) activities of Mozilla in India. He is the Training Lead in the [community team](https://wiki.mozilla.org/FirefoxOS/Community/India) that helped bring Firefox OS to India.
+He volunteers as a [Mozilla Representative](https://reps.mozilla.org/u/kaustavdm/) where he tries to co-ordinate community-based technical evangelism activities for Mozilla in India. He was the Training Lead in the [community team](https://wiki.mozilla.org/FirefoxOS/Community/India) that helped bring Firefox OS to India.
 
-So far, he has co-founded another organization, [CodeBinders](http://codebinders.com), in his early years, and has been a Developer Evangelist for [FusionCharts](http://fusioncharts.com).
+So far, he has co-founded another organization, CodeBinders, in his early years, and has been a Developer Evangelist for FusionCharts.
 
 He blogs at [kaustavdm.in](http://kaustavdm.in), tweets from [@kaustavdm](http://twitter.com/kaustavdm) and is [writing some books](https://leanpub.com/u/kaustavdm) in his free time.
 
