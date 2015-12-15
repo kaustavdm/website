@@ -18,10 +18,10 @@ categories:
 If your DLink DWA-125 stops working after a kernel upgrade, I recommend you reinstall from source code, according to the process below, by compiling for the new kernel version.
 
 **Before you begin**
-To run the commands mentioned in this article, you need to have [sudo](https://help.ubuntu.com/community/RootSudo) access. Also, if you don't have build-essential package installed, please install it. You can enter sudo apt-get install build-essential in terminal to get it installed.
+To run the commands mentioned in this article, you need to have [sudo](https://help.ubuntu.com/community/RootSudo) access. Also, if you don't have build-essential package installed, please install it. You can enter sudo apt-get install build-essential in terminal to get it installed.
 
 **Download source**
-First, get the source code. The source code is available from [Ralink](http://www.ralinktech.com/), but if you have trouble finding the right part, download it from TwiCore's mirror using [this link](http://public.twicore.com/DWA-125/dwa-125-ubuntu-11.10-Linux-3.zip). Extract the downloaded zip file to a suitable location.
+First, get the source code. The source code is available from [Ralink](http://www.ralinktech.com/). Extract the downloaded zip file to a suitable location.
 
 **Install**
 For the purpose of this documentation, let's assume the Ubuntu username to be "user" and the path to the folder where the zip file was extracted to be "~/source/dwa-125".
@@ -29,66 +29,57 @@ For the purpose of this documentation, let's assume the Ubuntu username to be "u
 **Edit configuration:**
 Edit the file ~/source/dwa-125/os/linux/config.mk and change the following values:
 
-
-line 56
-
-
+```
 # Support Wpa_Supplicant
-HAS_WPA_SUPPLICANT=y 
-
-
-
-
-
-line 59
-
+HAS_WPA_SUPPLICANT=y
 
 # Support Native WpaSupplicant for Network Maganger
 HAS_NATIVE_WPA_SUPPLICANT_SUPPORT=y
+```
 
 **Open a terminal and change directory:**
 
-
-cd ~/source/dwa-125
-
+```
+$ cd ~/source/dwa-125
+```
 
 **Run "make"**
 
-
-sudo make 
-
+```
+$ sudo make
+```
 
 **Run "make install"**
 
-
-sudo make install
+```
+$ sudo make install
+```
 
 
 **Blacklist unnecessary drivers**
-Edit /etc/modprobe.d/blacklist.conf and add these lines:
+Edit `/etc/modprobe.d/blacklist.conf` and add these lines:
 
-
+```
 blacklist rt2x00usb
 blacklist rt2x00lib
 blacklist rt2800usb
-
+```
 
 **Activate driver module**
 For Ubuntu 11.10, I found that I needed to use RT5370STA instead of RT3070STA as mentioned by flbiggs. So here's the command you need to get the module activated and to bring up the DWA-125 wireless device:
 
-
-sudo modprobe rt5370sta
+```
+$ sudo modprobe rt5370sta
+```
 
 
 This should bring up the wireless adapter and network manager should start scanning and detect available wireless networks.
 
 **Make driver load on startup**
-Edit /etc/modules and add this line:
+Edit `/etc/modules` and add this line:
 
-
+```
 rt5370sta
-
+```
 
 This should activate the DWA-125 wireless device every time you turn on the computer.
-
-
