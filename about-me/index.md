@@ -18,27 +18,11 @@ He blogs at [kaustavdm.in](http://kaustavdm.in), tweets from [@kaustavdm](http:/
 
 More about Kaustav:
 
+* [Twitter](http://twitter.com/kaustavdm)
+* [Github](https://github.com/kaustavdm)
+* [LinkedIn](http://in.linkedin.com/in/kaustavdm/)
+* [Facebook](https://facebook.com/kaustavdm)
+* [Flickr](http://www.flickr.com/photos/kaustav_das_modak/)
+* [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
 
-
-
-    
-  * [Twitter](http://twitter.com/kaustavdm)
-
-    
-  * [Github](https://github.com/kaustavdm)
-
-        
-  * [LinkedIn](http://in.linkedin.com/in/kaustavdm/)
-
-    
-  * [Facebook](https://facebook.com/kaustavdm)
-
-    
-  * [Flickr](http://www.flickr.com/photos/kaustav_das_modak/)
-
-        
-  * [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
-
-
-
-[Download CV __](https://kaustavdm.in/static/cv/Kaustav-CV-Dec-2015.pdf)
+[Download CV](https://kaustavdm.in/static/cv/Kaustav-CV-Dec-2015.pdf)
