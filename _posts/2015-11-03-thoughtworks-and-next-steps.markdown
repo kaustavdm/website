@@ -30,7 +30,7 @@ Now, this is where [Deb](http://debs.io) and [Nayanika](https://twitter.com/pawz
 
 ![Why not?](/images/posts/2724043.jpg)
 
-To quote Dr. John E. Zoidberg, "Why not?"
+To quote Dr. John A. Zoidberg, "Why not?"
 
 ThoughtWorks has everything I want in an organization that I would love to be a part of. Here is a concise list (in increasing order of importance):
 
