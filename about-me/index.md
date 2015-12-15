@@ -16,7 +16,12 @@ So far, he has co-founded another organization, CodeBinders, in his early years,
 
 He blogs at [kaustavdm.in](http://kaustavdm.in), tweets from [@kaustavdm](http://twitter.com/kaustavdm) and is [writing some books](https://leanpub.com/u/kaustavdm) in his free time.
 
-More about Kaustav:
+**More about Kaustav:**
+
+* [Code](https://code.kaustavdm.in)
+* [Presentations](https://presentations.kaustavdm.in)
+
+Find him on:
 
 * [Twitter](http://twitter.com/kaustavdm)
 * [Github](https://github.com/kaustavdm)
@@ -24,5 +29,6 @@ More about Kaustav:
 * [Facebook](https://facebook.com/kaustavdm)
 * [Flickr](http://www.flickr.com/photos/kaustav_das_modak/)
 * [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
+
 
 [Download CV](https://kaustavdm.in/static/cv/Kaustav-CV-Dec-2015.pdf)
