@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -13,20 +12,23 @@
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 61px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-decoration: none;
+    color: $blue-color;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    &:hover {
+      color: $blue-color-dark;
+      text-decoration: none;
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
+    border-top: 5px solid $blue-color;
 
     .menu-icon {
         display: none;
@@ -124,31 +126,13 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
 
-    .footer-col-3 {
+    .footer-col {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
@@ -168,11 +152,12 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+  padding: $spacing-unit 0;
+  background-color: $white-color;
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .post-list {
@@ -239,4 +224,8 @@
             font-size: 18px;
         }
     }
+}
+
+.meta {
+  color: $grey-color-light;
 }
