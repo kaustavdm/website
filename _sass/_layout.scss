@@ -262,3 +262,36 @@ h1 {
   }
 
 }
+
+/**
+ * Buttons
+ */
+.button {
+  background-color: $white-color;
+  color: $grey-color;
+  border: 1px solid $grey-color;
+  display: inline-block;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.7s;
+
+  a {
+    color: $grey-color;
+    text-decoration: none;
+    transition: color 0.7s;
+
+    &:hover,
+    &:visited {
+      color: darken($grey-color, 25%);
+      text-decoration: none;
+    }
+  }
+
+  &:hover,
+  &:visited {
+    color: darken($grey-color, 25%);
+    text-decoration: none;
+  }
+
+}
