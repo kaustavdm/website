@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+    background-color: $background-color-white;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -48,7 +49,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: $background-color-white;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -174,7 +175,8 @@ h1 {
  */
 .page-content {
   padding: $spacing-unit 0;
-  background-color: $white-color;
+  background-color: $background-color-white;
+  min-height: 50vh;
 }
 
 .post-list {
