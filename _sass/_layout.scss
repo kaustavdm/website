@@ -208,7 +208,10 @@ h1 {
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #ccc;
     letter-spacing: -1px;
     line-height: 1;
 
