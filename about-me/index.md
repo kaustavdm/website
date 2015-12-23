@@ -18,8 +18,8 @@ He blogs at [kaustavdm.in](http://kaustavdm.in), tweets from [@kaustavdm](http:/
 
 **More about Kaustav:**
 
-* [Code](https://code.kaustavdm.in)
-* [Presentations](https://presentations.kaustavdm.in)
+* [Code](http://code.kaustavdm.in)
+* [Presentations](http://presentations.kaustavdm.in)
 
 Find him on:
 
