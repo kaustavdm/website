@@ -2,22 +2,42 @@
 layout: default
 ---
 
-<div class="home">
+<div class="paginated paginated-page paginated-page-{{ paginator.page }}">
 
-  <h1 class="page-heading">Posts</h1>
+    {% if paginator.page > 1 %}
+    <h1 class="page-heading">Posts <small>Page {{ paginator.page }}</small></h1>
+    {% else %}
+    <h1 class="page-heading hidden">Posts</h1>
+    {% endif %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-list">
+        {% for post in paginator.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="pagination-links">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+        <span class="previous inactive">Previous</span>
+        {% endif %}
+
+        <span class="pagination-link-divider"></span>
+
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+        <span class="next inactive">Next</span>
+        {% endif %}
+    </div>
+
+    <p class="rss-subscribe button">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

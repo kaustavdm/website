@@ -146,6 +146,26 @@
     }
 }
 
+/**
+ * Page heading
+ */
+
+h1 {
+  vertical-align: baseline;
+  font-size: 2rem;
+  font-weight: 400;
+
+  &.page-heading {
+    border-bottom: 1px dotted $grey-color-light;
+  }
+
+  small {
+    color: $grey-color;
+    font-size: 70%;
+    margin-left: 1rem;
+    vertical-align: baseline;
+  }
+}
 
 
 /**
@@ -154,10 +174,6 @@
 .page-content {
   padding: $spacing-unit 0;
   background-color: $white-color;
-}
-
-.page-heading {
-    font-size: 18px;
 }
 
 .post-list {
@@ -228,4 +244,21 @@
 
 .meta {
   color: $grey-color-light;
+}
+
+/**
+ * Paginator
+ */
+.pagination-links {
+  text-align: center;
+  margin: 1rem auto;
+
+  .pagination-link-divider:before {
+    content: " | ";
+  }
+
+  .inactive {
+    color: $grey-color-light;
+  }
+
 }
