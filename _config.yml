@@ -24,7 +24,7 @@ timezone: Asia/Kolkata
 
 permalink: /:year/:month/:slug.html
 
-paginate: 4
+paginate: 7
 
 paginate_path: "/page-:num/"
 
