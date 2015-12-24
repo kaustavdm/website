@@ -31,4 +31,4 @@ Find him on:
 * [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
 
 
-[Download CV](https://kaustavdm.in/static/cv/Kaustav-CV-Dec-2015.pdf)
+<a href="/static/cv/Kaustav-CV-Dec-2015.pdf" class="button">Download CV</a>
