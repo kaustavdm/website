@@ -18,29 +18,7 @@ Increasingly, there is a growth in large scale hackathon events, where the focus
 
 Here's the ask: hackathons are meant to be platforms/places where you sprout innovation. Don't make them too much business oriented, please. How many of you big guys out there got your business plans and tech stack determined overnight?
 
-
-
-<blockquote>Weren't hackathons meant to be short spurts of concentrated energy to solve project issues? Not good for generating startups IMHO
-> 
-> -- Kaustav Das Modak (@kaustavdm) [May 30, 2015](https://twitter.com/kaustavdm/status/604664161813929985)</blockquote>
-
-
-
-
-
-
-
-<blockquote>
-  
-> 
-> <blockquote>
-    Overuse kills the beauty of attractive things.
-  </blockquote>
-> 
-> 
-</blockquote>
-
-
+> Overuse kills the beauty of attractive things.
 
 Starting up a successful business takes a lot more than a energy-drink-boosted, sleepless night of code and _jugaad_ design. 24 or 48 hours are not enough to come up with a viable model that can solve real-world issues. You would be able to make a lot of smartphone apps that do funny things by detecting your face, using myriads of libraries available all over the internet. But would you be able to make a sustainable solution? It depends.
 
@@ -49,3 +27,5 @@ Unless you already have a plan that you would go ahead with, unless you are read
 I meet a good number of brilliant folks at these hackathons whom I would hire straightaway as part of my technical team. I don't usually meet people whom I would like to have as a co-founder.
 
 Doesn't this mean that hackathons as a start-up creation platform are not achieving what they can? If the focus is more on the technology, rather than the business, I would love to participate in one of these. But till then, I am happy writing about them, and building my own business outside the current hackathon scenario.
+
+https://twitter.com/kaustavdm/status/604664161813929985
