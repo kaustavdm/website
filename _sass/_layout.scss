@@ -186,12 +186,37 @@ h1 {
 
     > li {
         margin-bottom: $spacing-unit;
+        display: flex;
+        align-items: baseline;
+
+        @include media-query($on-palm) {
+            flex-direction: column;
+        }
+
+        .post-meta {
+            margin-right: 0.5rem;
+            min-width: 5.4rem;
+            text-align: right;
+        }
+
+        h1, h2, h3 {
+            flex-grow: 1;
+        }
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    background-color: $background-color-grey;
+    display: inline-block;
+    padding: 0.25rem;
+}
+
+.meta {
+    color: $grey-color-light;
+    background-color: transparent;
+    padding: 0;
 }
 
 .post-link {
@@ -276,10 +301,6 @@ h1 {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
-}
-
-.meta {
-  color: $grey-color-light;
 }
 
 /**
