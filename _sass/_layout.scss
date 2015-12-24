@@ -229,6 +229,9 @@ h1 {
         line-height: 2;
         text-align: justify;
         vertical-align: baseline;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
     }
 
     > p:first-child:first-letter {
