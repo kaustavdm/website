@@ -18,10 +18,10 @@
     margin-bottom: 0;
     float: left;
     text-decoration: none;
-    color: $blue-color-dark;
+    color: $blue-color-dark !important;
 
     &:hover {
-      color: $blue-color-dark;
+      color: $blue-color-dark !important;
       text-decoration: none;
     }
 }
