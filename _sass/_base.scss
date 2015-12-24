@@ -113,11 +113,12 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $grey-color-dark;
+    line-height: 1.5;
+    border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
     font-size: 1rem;
-    font-style: italic;
+    font-style: normal;
 
     > :last-child {
         margin-bottom: 0;
@@ -135,6 +136,7 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
+    line-height: 1.1;
 }
 
 code {
