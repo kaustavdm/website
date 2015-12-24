@@ -102,7 +102,7 @@ a {
     }
 
     &:hover {
-        color: darken($brand-color, 25%);
+        color: lighten($brand-color, 25%);
         text-decoration: none;
     }
 }
