@@ -275,6 +275,11 @@ h1 {
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         hyphens: auto;
+
+        @include media-query($on-palm) {
+            line-height: 1.75;
+            text-align: left;
+        }
     }
 
     > p:first-child:first-letter {
