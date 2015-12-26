@@ -6,11 +6,9 @@ layout: default
 
     <h1 class="page-heading">Tag: {{ page.tag }}</h1>
     <div class="meta">
-        <p class="tags">
-            <a href="{{ site.baseurl }}/{{ site.tag_page_dir }}/{{ page.tag | slugify }}.xml" class="button">
-                Subscribe to this tag
-            </a>
-        </p>
+        <a href="{{ site.baseurl }}/{{ site.tag_page_dir }}/{{ page.tag | slugify }}.xml" class="button button-link">
+            Subscribe to this tag
+        </a>
     </div>
     <ul class="post-list">
         {% for post in page.posts %}
