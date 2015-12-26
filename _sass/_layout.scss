@@ -323,6 +323,16 @@ h1 {
     img {
         max-width: 100%;
     }
+
+    .banner {
+      text-align: center;
+      margin: 1rem 0;
+
+      img {
+        padding: 0.25rem;
+        border: 2px solid #ccc;
+      }
+    }
 }
 
 /**

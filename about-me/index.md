@@ -8,6 +8,8 @@ title: About Kaustav
 wordpress_id: 24
 ---
 
+<p class="banner"><img src="/images/kido.jpg" alt="Kaustav Das Modak" style="width: 300px;"></p>
+
 Kaustav is a passionate open-source enthusiast. He is an application developer at [ThoughtWorks Studios](https://www.thoughtworks.com/products), on the [Gauge](http://getgauge.io) team. He also co-founded [Applait](http://applait.com), an organization currently focusing on creating an open, unified communications platform.
 
 He volunteers as a [Mozilla Representative](https://reps.mozilla.org/u/kaustavdm/) where he tries to co-ordinate community-based technical evangelism activities for Mozilla in India. He was the Training Lead in the [community team](https://wiki.mozilla.org/FirefoxOS/Community/India) that helped bring Firefox OS to India.
