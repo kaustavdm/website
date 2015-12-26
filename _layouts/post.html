@@ -11,14 +11,12 @@ layout: default
   <div class="post-content" itemprop="articleBody">
       {{ content }}
   </div>
-  <p class="meta">
-      {% if page.categories.size > 0 %}
-      Posted in {{ page.categories | sort | array_to_sentence_string }}
-      {% endif %}
-      {% if page.categories.size > 0 && page.tags.size > 0 %}&nbsp;|&nbsp;{% endif %}
-      {% if page.tags.size > 0 %}
-      Tagged with {{ page.tags | sort | array_to_sentence_string }}
-      {% endif %}
-  </p>
+  <div class="meta">
+      <p class="tags">
+          {% if page.tags.size > 0 %}
+          Tagged with {{ page | tags}}
+          {% endif %}
+      </p>
+  </div>
 
 </article>

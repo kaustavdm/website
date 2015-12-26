@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="tags-page paginated-page-{{ paginator.page }}">
+
+    <h1 class="page-heading">Tag: {{ page.tag }}</h1>
+    <ul class="post-list">
+        {% for post in page.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+
+            <h2>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>

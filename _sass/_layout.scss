@@ -214,9 +214,22 @@ h1 {
 }
 
 .meta {
-    color: $grey-color-light;
+    color: lighten($grey-color, 10%);
     background-color: transparent;
     padding: 0;
+
+    a {
+        color: $grey-color;
+        text-decoration: none;
+
+        &:hover {
+            color: $grey-color-dark;
+        }
+    }
+
+    .tags {
+        text-align: right;
+    }
 }
 
 .post-link {

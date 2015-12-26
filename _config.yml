@@ -8,8 +8,7 @@
 # Site settings
 title: Kaustav Das Modak
 email: kaustav.dasmodak@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Kaustav's blog. An anecdote on research, photography, philosophy and what not.
+description: "Kaustav's blog. An anecdote on research, photography, philosophy and what not."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kaustavdm.in" # the base hostname & protocol for your site
 twitter_username: kaustavdm
@@ -17,15 +16,20 @@ github_username:  kaustavdm
 
 gems: [jekyll-paginate]
 
-# Build settings
+# Site settings
 markdown: kramdown
 
 timezone: Asia/Kolkata
 
 permalink: /:year/:month/:slug.html
 
+# Paginate
 paginate: 7
-
 paginate_path: "/page-:num/"
 
+# Exclude
 exclude: [scripts/, README.md, Gemfile, Gemfile.lock]
+
+# Tags
+tag_page_layout: tag_page
+tag_page_dir: tag
