@@ -5,7 +5,6 @@ date: 2013-06-20 18:23:18+00:00
 layout: post
 slug: multiple-php-versions-arch-linux-php-fpm-nginx
 title: Multiple PHP versions on Arch Linux with php-fpm and Nginx
-wordpress_id: 627
 categories:
 - Arch Linux
 - Free Software

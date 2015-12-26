@@ -5,7 +5,6 @@ date: 2014-08-25 05:23:15+00:00
 layout: post
 slug: dear-smartphone-user-time-unlearn
 title: Dear smartphone user, it is time to unlearn
-wordpress_id: 969
 categories:
 - Mozilla
 tags:

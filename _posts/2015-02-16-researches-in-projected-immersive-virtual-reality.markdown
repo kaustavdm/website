@@ -5,11 +5,8 @@ date: 2015-02-16 07:07:26+00:00
 layout: post
 slug: researches-in-projected-immersive-virtual-reality
 title: Researches in projected immersive virtual reality
-wordpress_id: 1035
 categories:
 - VR
-post_format:
-- Link
 tags:
 - virtual reality
 ---

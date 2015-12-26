@@ -5,7 +5,6 @@ date: 2014-02-23 08:17:52+00:00
 layout: post
 slug: can-we-have-some-hackers-please
 title: Can we have some hackers, please?
-wordpress_id: 840
 tags:
 - mozilla
 ---

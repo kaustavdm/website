@@ -5,7 +5,6 @@ date: 2014-04-10 14:48:34+00:00
 layout: post
 slug: initiating-evangelism-task-force-mozilla-india
 title: Initiating Evangelism Task Force in Mozilla India
-wordpress_id: 887
 tags:
 - developer evangelism
 - mozilla

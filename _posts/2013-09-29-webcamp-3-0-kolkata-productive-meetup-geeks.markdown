@@ -5,7 +5,6 @@ date: 2013-09-29 18:11:26+00:00
 layout: post
 slug: webcamp-3-0-kolkata-productive-meetup-geeks
 title: Webcamp 3.0 Kolkata - A productive meetup of Geeks
-wordpress_id: 677
 categories:
 - Events
 tags:

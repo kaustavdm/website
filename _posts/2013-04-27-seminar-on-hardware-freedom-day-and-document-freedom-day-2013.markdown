@@ -5,7 +5,6 @@ date: 2013-04-27 17:20:41+00:00
 layout: post
 slug: seminar-on-hardware-freedom-day-and-document-freedom-day-2013
 title: Seminar on Hardware Freedom Day and Document Freedom Day, 2013
-wordpress_id: 543
 categories:
 - Free Software
 - Photography

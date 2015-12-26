@@ -5,13 +5,13 @@ date: 2014-08-23 11:09:18+00:00
 layout: post
 slug: connect-firefox-os-spreadtrum-device-adb
 title: Connect Firefox OS Spreadtrum devices through adb
-wordpress_id: 954
 categories:
 - Mozilla
 tags:
 - adb
 - Firefox OS
 - spreadtrum
+- mozilla
 ---
 
 The ultra low-cost [Firefox OS](https://www.mozilla.org/en-US/firefox/os) devices to be launched in India are built on Spreadtrum chipsets. Here are the quick steps for people running Linux or OS X to connect their Spreadtrum devices through `adb`:

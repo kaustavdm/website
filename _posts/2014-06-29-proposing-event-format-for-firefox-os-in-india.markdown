@@ -5,7 +5,6 @@ date: 2014-06-29 13:23:47+00:00
 layout: post
 slug: proposing-event-format-for-firefox-os-in-india
 title: Proposing an event format for Firefox OS  in India
-wordpress_id: 944
 categories:
 - Mozilla
 tags:

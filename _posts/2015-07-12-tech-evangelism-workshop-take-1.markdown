@@ -5,7 +5,6 @@ date: 2015-07-12 09:25:46+00:00
 layout: post
 slug: tech-evangelism-workshop-take-1
 title: Tech Evangelism Workshop - Take 1
-wordpress_id: 1173
 categories:
 - Mozilla
 tags:

@@ -5,7 +5,6 @@ date: 2012-08-17 05:00:48+00:00
 layout: post
 slug: use-emacs-for-web-development
 title: Use Emacs for web development
-wordpress_id: 463
 categories:
 - Debian
 - Emacs

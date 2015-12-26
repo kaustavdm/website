@@ -5,7 +5,6 @@ date: 2009-10-07 18:12:00+00:00
 layout: post
 slug: countdown-for-ubuntu-9-10-final-release
 title: Countdown for Ubuntu 9.10 final release
-wordpress_id: 6
 categories:
 - Ubuntu
 ---

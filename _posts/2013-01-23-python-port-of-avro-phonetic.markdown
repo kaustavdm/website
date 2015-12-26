@@ -5,7 +5,6 @@ date: 2013-01-23 19:43:11+00:00
 layout: post
 slug: python-port-of-avro-phonetic
 title: Python port of Avro Phonetic
-wordpress_id: 514
 categories:
 - Avro
 tags:

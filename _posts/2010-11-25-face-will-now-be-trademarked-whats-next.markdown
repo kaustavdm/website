@@ -5,7 +5,6 @@ date: 2010-11-25 06:53:00+00:00
 layout: post
 slug: face-will-now-be-trademarked-whats-next
 title: '"Face" will now be trademarked! What''s next?'
-wordpress_id: 14
 ---
 
 ## Or should I write Face™?

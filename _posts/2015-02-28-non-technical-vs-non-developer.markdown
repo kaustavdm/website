@@ -5,7 +5,6 @@ date: 2015-02-28 09:19:23+00:00
 layout: post
 slug: non-technical-vs-non-developer
 title: Non-technical vs Non-developer
-wordpress_id: 1072
 ---
 
 The term "Technical" is often associated only with people who have knowledge of computers, especially of software. And that is, very largely, a misnomer.

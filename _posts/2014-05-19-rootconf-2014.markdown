@@ -5,7 +5,6 @@ date: 2014-05-19 19:48:59+00:00
 layout: post
 slug: rootconf-2014
 title: 'RootConf 2014: How it was and what it can be'
-wordpress_id: 932
 categories:
 - Events
 tags:

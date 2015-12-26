@@ -5,7 +5,6 @@ date: 2015-02-19 19:49:04+00:00
 layout: post
 slug: concepts-vs-facts
 title: Concepts vs facts
-wordpress_id: 1006
 ---
 
 A significant amount of discussion I had over the past week with multiple people had this general theme: "I wish I had better teachers when I was in school/college. I could've had a whole different outlook to the subjects I studied, and hated."

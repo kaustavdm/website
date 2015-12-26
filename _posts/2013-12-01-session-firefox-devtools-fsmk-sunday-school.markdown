@@ -5,7 +5,6 @@ date: 2013-12-01 15:25:36+00:00
 layout: post
 slug: session-firefox-devtools-fsmk-sunday-school
 title: A session on Firefox DevTools at FSMK Sunday School
-wordpress_id: 741
 categories:
 - Mozilla
 tags:

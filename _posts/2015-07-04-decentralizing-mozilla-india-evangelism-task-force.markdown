@@ -5,7 +5,6 @@ date: 2015-07-04 05:58:32+00:00
 layout: post
 slug: decentralizing-mozilla-india-evangelism-task-force
 title: Decentralizing Mozilla India Evangelism Task Force
-wordpress_id: 1135
 categories:
 - Mozilla
 tags:

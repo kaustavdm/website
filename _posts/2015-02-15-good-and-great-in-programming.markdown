@@ -5,7 +5,6 @@ date: 2015-02-15 12:02:29+00:00
 layout: post
 slug: good-and-great-in-programming
 title: Good and great - in programming
-wordpress_id: 1031
 post_format:
 - Status
 ---

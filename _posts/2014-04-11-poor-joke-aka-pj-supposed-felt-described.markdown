@@ -5,7 +5,6 @@ date: 2014-04-11 13:36:39+00:00
 layout: post
 slug: poor-joke-aka-pj-supposed-felt-described
 title: '"Poor Joke", aka, PJ is supposed to be felt, not described'
-wordpress_id: 899
 tags:
 - joke
 - poor joke

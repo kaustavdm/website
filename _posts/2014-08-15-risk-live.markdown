@@ -5,7 +5,6 @@ date: 2014-08-15 23:15:33+00:00
 layout: post
 slug: risk-live
 title: Risk is what I live for
-wordpress_id: 948
 tags:
 - applait
 - entrepreneurship

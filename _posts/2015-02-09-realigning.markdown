@@ -5,7 +5,6 @@ date: 2015-02-09 09:39:42+00:00
 layout: post
 slug: realigning
 title: Realigning
-wordpress_id: 1000
 ---
 
 Things I did in the last 3 days:

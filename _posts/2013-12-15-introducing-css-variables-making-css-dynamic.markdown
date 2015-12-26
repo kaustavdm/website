@@ -5,12 +5,10 @@ date: 2013-12-15 15:35:11+00:00
 layout: post
 slug: introducing-css-variables-making-css-dynamic
 title: Introducing CSS variables - Making your CSS dynamic
-wordpress_id: 773
 categories:
 - Mozilla
 tags:
 - css
-- css variables
 - mozilla
 ---
 

@@ -5,7 +5,6 @@ date: 2015-02-27 12:59:30+00:00
 layout: post
 slug: firefox-os-for-everyone
 title: Firefox OS for everyone
-wordpress_id: 1065
 categories:
 - Mozilla
 tags:

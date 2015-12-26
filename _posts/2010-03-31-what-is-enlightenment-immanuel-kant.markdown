@@ -5,7 +5,6 @@ date: 2010-03-31 12:16:00+00:00
 layout: post
 slug: what-is-enlightenment-immanuel-kant
 title: What is Enlightenment? - Immanuel Kant
-wordpress_id: 10
 categories:
 - Philosophy
 ---

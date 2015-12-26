@@ -5,7 +5,6 @@ date: 2013-09-23 12:58:15+00:00
 layout: post
 slug: mdn-evangelism-training-and-jsfoo-2013
 title: MDN Evangelism Training and JSFoo 2013
-wordpress_id: 666
 categories:
 - Mozilla
 tags:

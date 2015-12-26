@@ -5,13 +5,13 @@ date: 2015-03-05 07:34:53+00:00
 layout: post
 slug: announcing-grouphone
 title: Announcing Grouphone
-wordpress_id: 1092
 categories:
 - Applait
 tags:
 - Firefox OS
 - Grouphone
 - WebRTC
+- applait
 ---
 
 Today, we at [Applait](http://applait.com) [announced a new service](http://blog.applait.com/123) that we call "[Grouphone](http://grouphone.applait.com)". It is a multi-party audio call conferencing service over the internet. We'll be bringing it to Firefox OS as an early beta this month, and have plans to roll out versions for Android and iOS soon.

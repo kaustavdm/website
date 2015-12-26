@@ -5,7 +5,6 @@ date: 2013-12-02 12:54:22+00:00
 layout: post
 slug: birth-of-a-developer-evangelist
 title: Birth of a Developer Evangelist
-wordpress_id: 744
 categories:
 - FusionCharts
 tags:

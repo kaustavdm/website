@@ -5,12 +5,10 @@ date: 2013-11-06 13:10:49+00:00
 layout: post
 slug: web-developer-contribute-mozilla-developer-network
 title: Web Developer? Contribute to Mozilla Developer Network!
-wordpress_id: 711
 categories:
 - Mozilla
 tags:
-- contribute
-- devmo
+- mdn
 - mozilla
 - open-source
 - web development

@@ -5,7 +5,6 @@ date: 2010-04-24 19:17:00+00:00
 layout: post
 slug: ubuntu-11-04-will-say-bye-bye-to-notification-area
 title: Ubuntu 11.04 will say bye-bye to "notification area"
-wordpress_id: 11
 categories:
 - Ubuntu
 ---

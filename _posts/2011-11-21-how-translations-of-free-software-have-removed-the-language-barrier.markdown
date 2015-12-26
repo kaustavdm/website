@@ -5,7 +5,6 @@ date: 2011-11-21 12:14:00+00:00
 layout: post
 slug: how-translations-of-free-software-have-removed-the-language-barrier
 title: How translations of free software have removed the language barrier
-wordpress_id: 19
 categories:
 - Drupal
 - Free Software

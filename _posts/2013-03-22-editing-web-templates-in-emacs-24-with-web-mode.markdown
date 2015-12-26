@@ -5,7 +5,6 @@ date: 2013-03-22 13:39:44+00:00
 layout: post
 slug: editing-web-templates-in-emacs-24-with-web-mode
 title: Editing web templates in Emacs 24 with web-mode
-wordpress_id: 538
 categories:
 - Emacs
 tags:

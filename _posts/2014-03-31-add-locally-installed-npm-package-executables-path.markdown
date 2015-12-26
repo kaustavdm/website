@@ -5,7 +5,6 @@ date: 2014-03-31 10:07:36+00:00
 layout: post
 slug: add-locally-installed-npm-package-executables-path
 title: Add locally installed NPM package executables to PATH
-wordpress_id: 875
 categories:
 - NodeJS
 tags:

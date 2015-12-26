@@ -5,7 +5,6 @@ date: 2013-05-06 13:52:59+00:00
 layout: post
 slug: a-fiery-sunset-in-may
 title: A Fiery Sunset in May
-wordpress_id: 583
 categories:
 - Photography
 tags:

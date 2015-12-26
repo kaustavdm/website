@@ -5,7 +5,6 @@ date: 2013-02-12 20:37:01+00:00
 layout: post
 slug: codebinders-com-gets-a-fresh-new-look
 title: CodeBinders.com gets a fresh new look
-wordpress_id: 529
 categories:
 - CodeBinders
 tags:

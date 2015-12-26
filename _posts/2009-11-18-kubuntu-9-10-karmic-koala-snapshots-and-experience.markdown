@@ -5,7 +5,6 @@ date: 2009-11-18 20:54:00+00:00
 layout: post
 slug: kubuntu-9-10-karmic-koala-snapshots-and-experience
 title: Kubuntu 9.10 Karmic Koala Snapshots and Experience
-wordpress_id: 8
 ---
 
 Initially, there were some glitches while upgrading from Kubuntu 9.04 over network. The free CD arrived yesterday and I performed a clean install with it and then it was a great time with this new version of the Linux distro. The main upbeats are the new KDE and Open Office. Since 9.04, Kubuntu has its own compositing engine, but Compiz always adds that extra bit of customization and stunning display along with the powerful usability that Kubuntu provides.<!-- more -->

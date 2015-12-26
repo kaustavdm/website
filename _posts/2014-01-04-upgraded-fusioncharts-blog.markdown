@@ -5,7 +5,6 @@ date: 2014-01-04 18:51:52+00:00
 layout: post
 slug: upgraded-fusioncharts-blog
 title: How we upgraded the FusionCharts blog
-wordpress_id: 797
 categories:
 - FusionCharts
 tags:

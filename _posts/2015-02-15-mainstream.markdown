@@ -5,7 +5,6 @@ date: 2015-02-15 17:18:50+00:00
 layout: post
 slug: mainstream
 title: Mainstream
-wordpress_id: 1033
 post_format:
 - Status
 ---

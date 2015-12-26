@@ -5,7 +5,6 @@ date: 2014-03-29 10:47:02+00:00
 layout: post
 slug: documenting-open-web-presentation
 title: Documenting the Open Web [Presentation]
-wordpress_id: 865
 tags:
 - presentations
 - mdn

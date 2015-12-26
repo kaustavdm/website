@@ -5,7 +5,6 @@ date: 2014-05-14 07:29:32+00:00
 layout: post
 slug: workaround-see-git-submodule-diff-bitbucket-pull-requests
 title: Workaround to see Git submodule diff in Bitbucket pull requests
-wordpress_id: 906
 categories:
 - Git
 tags:

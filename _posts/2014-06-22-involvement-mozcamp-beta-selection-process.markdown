@@ -5,7 +5,6 @@ date: 2014-06-22 20:10:03+00:00
 layout: post
 slug: involvement-mozcamp-beta-selection-process
 title: About my involvement in MozCamp Beta selection process
-wordpress_id: 939
 categories:
 - Mozilla
 tags:
@@ -63,12 +62,9 @@ But, on a personal note, I really missed talking to a lot of you who were so ups
 
   * [MozCamp Beta Planning wiki](https://wiki.mozilla.org/MozCamps_2014/Planning)
 
-
   * [MozCamp Beta Planning - tracker etherpad](https://cbt.etherpad.mozilla.org/mozcamp-assets)
 
-
   * [MozCamp Beta Planning - Invitation criteria planning etherpad](https://etherpad.mozilla.org/mozcamp14-invitation)
-
 
   * [MozCamp Beta Planning - Next steps planning etherpad](https://etherpad.mozilla.org/mozcamp14-next-steps)
 

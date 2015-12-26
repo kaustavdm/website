@@ -5,7 +5,6 @@ date: 2013-11-10 17:52:46+00:00
 layout: post
 slug: appday-box-gdg-kolkata
 title: AppDay in a Box with GDG Kolkata
-wordpress_id: 716
 categories:
 - Mozilla
 tags:

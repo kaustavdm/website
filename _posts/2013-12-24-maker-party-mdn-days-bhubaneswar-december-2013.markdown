@@ -5,7 +5,6 @@ date: 2013-12-24 06:49:53+00:00
 layout: post
 slug: maker-party-mdn-days-bhubaneswar-december-2013
 title: Maker Party and MDN Days, Bhubaneswar, December 2013
-wordpress_id: 785
 categories:
 - Mozilla
 tags:

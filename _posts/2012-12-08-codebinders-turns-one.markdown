@@ -5,7 +5,6 @@ date: 2012-12-08 19:16:22+00:00
 layout: post
 slug: codebinders-turns-one
 title: CodeBinders turns one
-wordpress_id: 504
 categories:
 - CodeBinders
 tags:

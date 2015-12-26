@@ -5,7 +5,6 @@ date: 2015-02-14 11:32:03+00:00
 layout: post
 slug: combining-the-power-of-old-and-new
 title: Combining the power of old and new
-wordpress_id: 1002
 tags:
 - Emacs
 ---

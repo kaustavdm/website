@@ -5,7 +5,8 @@ date: 2015-08-03 16:43:48+00:00
 layout: post
 slug: on-introversion
 title: On introversion
-wordpress_id: 1210
+tags:
+- tales
 ---
 
 It is about being most comfortable with one's own self. It may or may not include some trusted people to share thoughts with. Introversion shines only if it gets the right levels of resonance. But that is rare. Very rare. That is not to say, _"everyone is stupid"_. It is more like, _"I like being who I am. Please, let me be."_ <!-- more -->

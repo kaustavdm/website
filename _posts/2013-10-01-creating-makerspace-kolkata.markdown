@@ -5,7 +5,6 @@ date: 2013-10-01 18:32:25+00:00
 layout: post
 slug: creating-makerspace-kolkata
 title: Creating a Makerspace in Kolkata
-wordpress_id: 686
 tags:
 - hackerspace
 - kolkata

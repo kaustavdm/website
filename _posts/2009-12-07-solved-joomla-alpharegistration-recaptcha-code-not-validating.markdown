@@ -5,7 +5,6 @@ date: 2009-12-07 19:20:00+00:00
 layout: post
 slug: solved-joomla-alpharegistration-recaptcha-code-not-validating
 title: '[SOLVED] Joomla AlphaRegistration ReCaptcha code not validating'
-wordpress_id: 9
 categories:
 - Joomla
 ---

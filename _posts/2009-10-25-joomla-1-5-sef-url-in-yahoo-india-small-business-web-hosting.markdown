@@ -5,7 +5,6 @@ date: 2009-10-25 07:27:00+00:00
 layout: post
 slug: joomla-1-5-sef-url-in-yahoo-india-small-business-web-hosting
 title: Joomla 1.5 SEF url in Yahoo! India Small Business web hosting
-wordpress_id: 7
 categories:
 - Joomla
 ---

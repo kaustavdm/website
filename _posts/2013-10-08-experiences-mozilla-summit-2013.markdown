@@ -5,7 +5,6 @@ date: 2013-10-08 14:02:56+00:00
 layout: post
 slug: experiences-mozilla-summit-2013
 title: Experiences from Mozilla Summit 2013
-wordpress_id: 694
 categories:
 - Mozilla
 tags:

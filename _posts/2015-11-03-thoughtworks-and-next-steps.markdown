@@ -5,7 +5,6 @@ date: 2015-11-03 11:50:26+00:00
 layout: post
 slug: thoughtworks-and-next-steps
 title: Re-starting. ThoughtWorks and next steps
-wordpress_id: 1220
 tags:
 - applait
 - philosophy

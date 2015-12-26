@@ -5,7 +5,6 @@ date: 2013-11-22 19:04:49+00:00
 layout: post
 slug: time-to-move-on-for-codebinders
 title: It is time to move on for CodeBinders
-wordpress_id: 731
 categories:
 - CodeBinders
 tags:

@@ -5,7 +5,6 @@ date: 2014-05-19 08:08:03+00:00
 layout: post
 slug: next-steps-evangelism-task-force-mozilla-india
 title: Next steps for the Evangelism Task Force in Mozilla India
-wordpress_id: 926
 categories:
 - Mozilla
 tags:
@@ -38,24 +37,10 @@ In that spirit, we have decided to put up a form where interested community memb
 
 A brief outline of the process will be:
 
-
-
-
-
   * Interested community member fills up a form link provided.
-
-
   * The form creates a bug on Mozilla India Bugzilla under a component related to Evangelism Task Force, and automatically CC’s existing task force members responsible for handling new recruits.
-
-
   * At least one existing task force member adds a note of recommendation for the applicant as a comment on the bug and the bug gets assigned to one of the existing task force members.
-
-
   * Based on some discussions with the applicant, the assignee of the bug decides on onboarding the new member. In case the application does not fulfill some criteria, the assignee would provide some resources to the applicant to learn and improve and apply once again in the future.
-
-
-
-
 
 ### Estimated timeline
 

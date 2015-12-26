@@ -5,7 +5,6 @@ date: 2010-08-21 08:11:00+00:00
 layout: post
 slug: twicore-starts-working-on-openoth
 title: TwiCore starts working on OpenOTH
-wordpress_id: 12
 categories:
 - MySQL
 - PHP

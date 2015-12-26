@@ -5,7 +5,6 @@ date: 2015-02-14 10:17:15+00:00
 layout: post
 slug: the-next-ai-revolution
 title: The next AI revolution
-wordpress_id: 1016
 post_format:
 - Quote
 ---

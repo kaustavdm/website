@@ -5,7 +5,6 @@ date: 2015-06-02 19:59:23+00:00
 layout: post
 slug: hackathons-as-startup-creation-platforms-are-anti-pattern
 title: Hackathons as startup creation platforms are anti-pattern
-wordpress_id: 1102
 ---
 
 Over the last few years, the hackathon fever has caught the entire world. It is a big thing in India as well, especially, in the technology-heavy cities like Bangalore and Hyderabad. Hackathons, as the name suggests, were constructed as a short time (24-48 hours) of solid energy where participants hacked on problems with a free mind.

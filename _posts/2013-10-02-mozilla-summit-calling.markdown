@@ -5,7 +5,6 @@ date: 2013-10-02 02:48:57+00:00
 layout: post
 slug: mozilla-summit-calling
 title: Mozilla Summit is calling
-wordpress_id: 689
 categories:
 - Mozilla
 tags:

@@ -5,7 +5,6 @@ date: 2013-06-10 07:50:07+00:00
 layout: post
 slug: git-workshop-for-beginners-on-irc-by-wfs-india
 title: Git workshop for beginners on IRC by WFS-India on June 15, 2013
-wordpress_id: 622
 categories:
 - Free Software
 tags:
