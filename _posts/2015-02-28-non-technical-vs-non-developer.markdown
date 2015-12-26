@@ -16,23 +16,13 @@ My response was, "Dude! You are studying the core of engineering. That is as muc
 
 That conversation was the inspiration behind one of the slides in my last talk, [Firefox OS for everyone](http://kaustavdm.in/2015/02/firefox-os-for-everyone.html), which read:
 
-
-
-<blockquote>
-  Not everyone is a developer. Not everyone needs to be.
-</blockquote>
-
-
+> Not everyone is a developer. Not everyone needs to be.
 
 People are usually confused about what is _technical_ and what is a _software developer_. According to many people I have talked to, a developer is considered to be a technical person. Others are usually regarded as _non-technical_.
 
 But, that's not valid. Let's demystify.<!-- more -->
 
-
-
 ## Define: "Technical"
-
-
 
 "Technical" is an adjective, which, by definition, means "relating to a particular subject, art, or craft, or its techniques."
 
@@ -42,11 +32,7 @@ The chefs at your favourite restaurant are extremely technical people. Your favo
 
 But they may have nothing to do writing software. (Even though I happen to know a [chef-turned-programmer](http://twitter.com/dietrich)).
 
-
-
 ## Difference from "Developer"
-
-
 
 The term "Developer" is also an acronym we usually use for a "computer software developer". We need to be aware that it applies to anyone who _develops_ something. It can be a real-estate builder, a business relationship manager or even to certain types of bees, ants and termites. They all develop. But only a small portion of these beings develop software for computers.
 
