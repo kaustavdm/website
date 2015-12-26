@@ -5,6 +5,13 @@ layout: default
 <div class="tags-page paginated-page-{{ paginator.page }}">
 
     <h1 class="page-heading">Tag: {{ page.tag }}</h1>
+    <div class="meta">
+        <p class="tags">
+            <a href="{{ site.baseurl }}/{{ site.tag_page_dir }}/{{ page.tag | slugify }}.xml" class="button">
+                Subscribe to this tag
+            </a>
+        </p>
+    </div>
     <ul class="post-list">
         {% for post in page.posts %}
         <li>
