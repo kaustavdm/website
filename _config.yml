@@ -8,7 +8,7 @@
 # Site settings
 title: Kaustav Das Modak
 email: kaustav.dasmodak@gmail.com
-description: "Kaustav's blog. An anecdote on research, photography, philosophy and what not."
+description: "Kaustav's blog. An anecdote on research, programming, philosophy and what not."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kaustavdm.in" # the base hostname & protocol for your site
 twitter_username: kaustavdm
