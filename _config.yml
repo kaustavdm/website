@@ -19,6 +19,10 @@ gems: [jekyll-paginate]
 # Site settings
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 timezone: Asia/Kolkata
 
 permalink: /:year/:month/:slug.html
