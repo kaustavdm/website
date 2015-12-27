@@ -21,24 +21,23 @@ The way out is to add `./node_modules/.bin` folder to `PATH`. `npm` puts all exe
 To do that, run this command on the command line:
 
 
-    
-    
+
+
     $ PATH="node_modules/.bin":$PATH
-    
+
 
 
 
 To make the change permanent, edit `~/.bashrc` and add this to it:
 
 
-    
-    
-    export PATH="node_modules/.bin":$PATH
-    
+
+``` bash
+export PATH="node_modules/.bin":$PATH
+```
 
 
 
 You will need to do `source ~/.bashrc` to load it for the current session.
 
 This trick is particularly useful if you have multiple versions of the same NodeJS package installed per project. That way, even if you have a different global version, the local version of the package will take precedence.
-
