@@ -138,8 +138,7 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
+pre {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
@@ -148,14 +147,17 @@ code {
 }
 
 code {
-    padding: 1px 5px;
+    padding: 0;
+    font-family: $monospace-font-family;
 }
 
 pre {
     padding: 8px 12px;
     overflow-x: auto;
+    font-family: $monospace-font-family;
 
     > code {
+        padding: 1px 5px;
         border: 0;
         padding-right: 0;
         padding-left: 0;
