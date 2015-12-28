@@ -65,6 +65,4 @@ Adding these observations would not have been possible if there had not been an 
 
 Oh, and there were these cupcakes!
 
-[![Cupcakes at RootConf 2014](https://kaustavdm.in/wp-content/uploads/2014/05/2014-05-16-11.00.44-1600x12001.jpg)](https://kaustavdm.in/wp-content/uploads/2014/05/2014-05-16-11.00.441.jpg)
-
 P.S. That flash talk on Emacs was a pleasant surprise. Let’s have more of those, somewhere else!
