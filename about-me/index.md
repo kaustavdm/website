@@ -5,6 +5,7 @@ date: 2012-02-07 21:26:03+00:00
 layout: page
 slug: about-me
 title: About Kaustav
+nav: true
 wordpress_id: 24
 ---
 
