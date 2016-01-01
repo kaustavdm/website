@@ -25,7 +25,7 @@ kramdown:
 
 timezone: Asia/Kolkata
 
-permalink: /:year/:month/:slug.html
+permalink: :slug.html
 
 # Paginate
 paginate: 7
