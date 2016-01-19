@@ -32,6 +32,6 @@ Find him on:
 * [Facebook](https://facebook.com/kaustavdm)
 * [Flickr](http://www.flickr.com/photos/kaustav_das_modak/)
 * [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
-
+* [Telegram](https://telegram.me/kaustavdm)
 
 <a href="/static/cv/Kaustav-CV-Dec-2015.pdf" class="button">Download CV</a>
