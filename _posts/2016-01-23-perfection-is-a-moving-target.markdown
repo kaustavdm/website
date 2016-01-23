@@ -6,7 +6,7 @@ tags:
 - thoughts
 ---
 
-Being a perfectionist is difficult. You see through all the tiny imperfections in everything around you. Among everything else that you observe, your own imperfections hit you the hardest. I am a perfectionist, and I know how hard it can be to try to achieve constant perfection in everything.
+Being a perfectionist is difficult. You see through all the tiny imperfections in everything around you. I am a perfectionist, and I know how hard it can be to try to achieve constant perfection in everything.
 
 The more I try to push for perfection, the more elusive it seems. I always find scopes of improvement in whatever I do &mdash; be it cooking or writing or coding or teaching. I feel the urge to improve on my previous attempts, I feel the need to know more and do better. Even with my best efforts, I feel like I achieve near-perfection, but never complete perfection. And, that is good. That is a big motivating factor in everything I do.
 
