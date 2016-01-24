@@ -34,4 +34,8 @@ Find him on:
 * [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
 * [Telegram](https://telegram.me/kaustavdm)
 
+**Get in touch:**
+
+![VCard QR Code](/images/vcard-qrcode.png)
+
 <a href="/static/cv/Kaustav-CV-Dec-2015.pdf" class="button">Download CV</a>
