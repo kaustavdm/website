@@ -19,20 +19,9 @@ So far, he has co-founded another organization, CodeBinders, in his early years,
 
 He blogs at [kaustavdm.in](http://kaustavdm.in), tweets from [@kaustavdm](http://twitter.com/kaustavdm) and is [writing some books](https://leanpub.com/u/kaustavdm) in his free time.
 
-**More about Kaustav:**
+Check out his [codes](http://code.kaustavdm.in) and [presentations](http://presentations.kaustavdm.in).
 
-* [Code](http://code.kaustavdm.in)
-* [Presentations](http://presentations.kaustavdm.in)
-
-Find him on:
-
-* [Twitter](http://twitter.com/kaustavdm)
-* [Github](https://github.com/kaustavdm)
-* [LinkedIn](http://in.linkedin.com/in/kaustavdm/)
-* [Facebook](https://facebook.com/kaustavdm)
-* [Flickr](http://www.flickr.com/photos/kaustav_das_modak/)
-* [Mozillians](https://mozillians.org/en-US/u/kaustavdm/)
-* [Telegram](https://telegram.me/kaustavdm)
+Find him on [Twitter](http://twitter.com/kaustavdm), [Github](https://github.com/kaustavdm), [LinkedIn](http://in.linkedin.com/in/kaustavdm/), [Facebook](https://facebook.com/kaustavdm), [Flickr](http://www.flickr.com/photos/kaustav_das_modak/), [Mozillians](https://mozillians.org/en-US/u/kaustavdm/) or [Telegram](https://telegram.me/kaustavdm).
 
 **Get in touch:**
 
