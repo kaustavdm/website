@@ -9,6 +9,9 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+      {% if page.image %}
+      <img src="{{ site.baseurl }}/images/covers/{{ page.image }}" alt="{{ page.title }}" class="cover">
+      {% endif %}
       {{ content }}
   </div>
   <div class="meta">

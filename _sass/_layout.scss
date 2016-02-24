@@ -266,6 +266,17 @@ h1 {
 .post-content {
     margin-bottom: $spacing-unit;
     font-size: 1.1rem;
+    position: relative;
+
+    .cover {
+        padding: 0.5rem;
+        background-color: #ffffff;
+        border: 1px solid $grey-color-light;
+        max-width: 100%;
+        display: block;
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+    }
 
     > p {
         margin-bottom: 1.5rem;
