@@ -286,9 +286,6 @@ h1 {
         line-height: 2;
         text-align: left;
         vertical-align: baseline;
-        -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-        hyphens: auto;
 
         @include media-query($on-palm) {
             line-height: 1.75;
