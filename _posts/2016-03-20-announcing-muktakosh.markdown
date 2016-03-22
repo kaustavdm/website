@@ -15,7 +15,7 @@ tags:
 
 ## Muktakosh at present
 
-- [**Idea hub**][ideas]: The [Idea Hub][ideas] in Muktakosh, is a place envisioned to foster discussions on technologies, art, design and literature that people want. We have put some of our ideas there to begin with.
+- [**Idea hub**][ideas]: The [Idea Hub][ideas] in Muktakosh is a place envisioned to foster discussions on technologies, art, design and literature that people want. We have put some of our ideas there to begin with.
 - [**unicorn**][unicorn]: We have started working on unicorn, a federated connectivity suite, that we have put in the public domain. There is no demo yet, but hoping to have one in 6 months. The [discussions](https://muktakosh.org/c/unicorn) happen on Muktakosh.org.
 - [**ConQ**][conq]: We had planned [ConQ][conq] during our [Applait][applait] days, as a discussion platform, when we wanted to make a business out of it. Eventually, we felt that it is better off as an open and community driven project, given its goals.
 
