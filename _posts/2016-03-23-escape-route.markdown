@@ -12,7 +12,7 @@ If you keep on blaming the world, and those around you, for things in your life 
 
 If this is true, you will never learn from your own mistakes. You will always find comfort in putting the blame on others. You will get further detached from the truth. Just because you refuse to see it, doesn't mean it changes, though you will end up convincing yourself that you were a victim.
 
-Worst of all, you will never know how things would have been if you had the courage to face facts and accept the reality. You may not be aware, but you may be doing this to yourself out of your own volition. So, before your start judging others and broadcasting your ignorance, take a moment to introspect.
+Worst of all, you will never know how things would have been if you had the courage to face facts and accept the reality. You may not be aware, but you may be doing this to yourself out of your own volition. So, before you start judging others and broadcasting your ignorance, take a moment to introspect.
 
 For extreme cases, there are clinically recognised [manifestations](https://en.wikipedia.org/wiki/Dissociative_disorder) of this situation. Having been through such a phase since my childhood, I can vouch that it can be addressed with consistent efforts. Though, this is rarely the reason.
 
