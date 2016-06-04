@@ -7,3 +7,9 @@ tags:
 - technology
 - communication
 ---
+
+## What is a communication divide?
+
+## Why did it happen?
+
+## How can we solve it?
