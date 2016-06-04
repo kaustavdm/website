@@ -119,7 +119,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color-dark;
+    color: darken($text-color, 20%);
     line-height: 1.5;
     border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
