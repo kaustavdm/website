@@ -16,9 +16,11 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.nav %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav_title }}</a>
           {% endif %}
         {% endfor %}
+          <a class="page-link" href="http://presentations.kaustavdm.in">Presentations</a>
+          <a class="page-link" href="http://code.kaustavdm.in">Code</a>
       </div>
     </nav>
 

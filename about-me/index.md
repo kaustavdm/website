@@ -6,6 +6,7 @@ layout: page
 slug: about-me
 title: About Kaustav
 nav: true
+nav_title: About
 wordpress_id: 24
 ---
 
