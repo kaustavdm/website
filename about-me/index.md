@@ -31,3 +31,5 @@ Find him on [Twitter](http://twitter.com/kaustavdm), [Github](https://github.com
 ![VCard QR Code](/images/vcard-qrcode.png)
 
 <a href="/static/cv/Kaustav-CV-2016-07.pdf" class="button">Download CV</a>
+
+<p class="small"><a href="/static/cv/cv.txt">View CV in plain text</a></p>
