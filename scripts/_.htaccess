@@ -1,0 +1,22 @@
+ErrorDocument 404 /errors/404.html
+
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteCond %{ENV:HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301,NE]
+
+# Redirects
+RewriteRule ^page/(\d+)$ /page-$1 [L,R=301]
+RewriteRule ^tag/([\w-]+)$ /tag/$1.html [L,R=301]
+RewriteRule ^tag/([\w-]+)/feed$ /tag/$1.xml [L,R=301]
+RewriteRule ^category/([\w-]+)$ /tag/$1.html [L,R=301]
+RewriteRule ^category/([\w-]+)/feed$ /tag/$1.xml [L,R=301]
+RewriteRule ^feed$ /feed.xml [L,R=301]
+RewriteRule ^\d+/\d+/([\w-]+).html /$1.html [L,R=301]
+
