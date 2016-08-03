@@ -17,30 +17,6 @@ Languages  : Bengali, English, Hindi
 Current Professional Involvement
 ================================
 
-ThoughtWorks
--------------
-
-Role     : Application Developer
-Location : Bangalore
-Duration : Nov 2015 – Present
-
-Developer in ThoughtWorks Studios on the Gauge[1] team. Gauge is an
-open-source, extensible, test automation tool written in Go with
-plugins in multiple languages.
-
-Highlights:
-
-- Helped make the JavaScript language plugin stable by implementing
-  host of required features, including sandboxed execution.
-- Helped stabilize HTML reporting plugin.
-- Helped architect nightly releases of Gauge core and official
-  language plugins through continuous delivery pipelines.
-- Created RPM and DEB builds for Gauge core (stable and nightly).
-
-Technologies used:
-JavaScript, NodeJS, Golang, HTML5, Bash, Java, Ruby, Go (CD), Snap CI.
-
-
 Applait
 -------
 
@@ -70,6 +46,30 @@ ZeroMQ, RabbitMQ, PostgreSQL, Openshift, Travis CI.
 
 Past Professional Experience
 ============================
+
+ThoughtWorks
+-------------
+
+Role     : Application Developer
+Location : Bangalore
+Duration : Nov 2015 – Aug 2016
+
+Developer in ThoughtWorks Studios on the Gauge[1] team. Gauge is an
+open-source, extensible, test automation tool written in Go with
+plugins in multiple languages.
+
+Highlights:
+
+- Helped make the JavaScript language plugin stable by implementing
+  host of required features, including sandboxed execution.
+- Helped stabilize HTML reporting plugin.
+- Helped architect nightly releases of Gauge core and official
+  language plugins through continuous delivery pipelines.
+- Created RPM and DEB builds for Gauge core (stable and nightly).
+
+Technologies used:
+JavaScript, NodeJS, Golang, HTML5, Bash, Java, Ruby, Go (CD), Snap CI.
+
 
 Vyoma Technologies
 ------------------
