@@ -17,6 +17,17 @@ Languages  : Bengali, English, Hindi
 Current Professional Involvement
 ================================
 
+TokBox
+------
+
+Role     : Developer Relations - Sales
+Location : Bangalore/Remote
+Duration : Sep 2016 – Present
+
+Outbound developer support to TokBox India customer inquiries and
+organization/participation in local developer events.
+
+
 Applait
 -------
 

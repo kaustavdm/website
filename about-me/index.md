@@ -14,7 +14,7 @@ wordpress_id: 24
 
 Kaustav is passionate about technology and its applications in the fields of communication and intelligence.
 
-He is one of the co-founders of [Muktakosh](https://muktakosh.org), a non-profit group dedicated to research on exponential technologies. He also co-founded [Applait](http://applait.com), a for-profit product outfit that paved the groundwork for his future experimentation.
+He is one of the co-founders of [Muktakosh](https://muktakosh.org), a non-profit group dedicated to research on exponential technologies. He also co-founded [Applait](http://applait.com), a for-profit product outfit that paved the groundwork for his future experimentation. He currently helps [TokBox](https://tokbox.com) to connect with developers in APAC, focusing in India.
 
 He volunteers as a [Mozilla Representative](https://reps.mozilla.org/u/kaustavdm/) where he helps people with public speaking, as part of initiatives like [Mozilla Tech Speakers](https://wiki.mozilla.org/TechSpeakers). He was the Training Lead in the [community team](https://wiki.mozilla.org/FirefoxOS/Community/India) that helped bring Firefox OS to India.
 
@@ -30,6 +30,6 @@ Find him on [Twitter](http://twitter.com/kaustavdm), [Github](https://github.com
 
 ![VCard QR Code](/images/vcard-qrcode.png)
 
-<a href="/static/cv/Kaustav-CV-2016-08.pdf" class="button">Download CV</a>
+<a href="/static/cv/Kaustav-CV-2016-09.pdf" class="button">Download CV</a>
 
 <p class="small"><a href="/static/cv/cv.txt">View CV in plain text</a></p>
