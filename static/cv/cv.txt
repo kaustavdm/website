@@ -37,7 +37,7 @@ Duration : Aug 2014 – Present
 
 Responsible for R&D and all technology implementations. Applait’s goal
 is to build commercial offerings around high-performance communication
-solutions using open technologies.
+solutions using open technologies and explore new media like AR/VR.
 
 Highlights:
 
@@ -177,7 +177,7 @@ research and build exponential technologies, while making innovation
 as open, transparent, usable and accessible as possible.
 
 Currently building a decentralized communication platform called
-“unicorn”[5], that can bridge different types of APIs and protocols, and
+"unicorn"[5], that can bridge different types of APIs and protocols, and
 can be run on an embedded device or scaled across data-centres.
 
 
