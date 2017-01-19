@@ -2,7 +2,7 @@
 layout: post
 slug: privacy-in-technology
 title: "Privacy in technology"
-excerpt: "Privacy has many facets. The issue of privacy bothers us in today's ever-more connected world because we do not control its manifestations. Let's look at why and how privacy manifests in the technology around us."
+subheader: "Privacy has many facets. The issue of privacy bothers us in today's ever-more connected world because we do not control its manifestations. Let's look at why and how privacy manifests in the technology around us."
 image: cctv-brick-wall.jpg
 tags:
 - thoughts

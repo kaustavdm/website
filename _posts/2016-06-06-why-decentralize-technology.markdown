@@ -3,7 +3,7 @@ layout: post
 slug: why-decentralize-technology
 title: "Why decentralize technology?"
 image: decentralized.jpg
-excerpt: The concept of decentralization is used in politics, economics and technology to limit the amount of impact a single, centralized body can have over the ecosystem. Why is it important for the technology we have today to be decentralized?
+subheader: The concept of decentralization is used in politics, economics and technology to limit the amount of impact a single, centralized body can have over the ecosystem. Why is it important for the technology we have today to be decentralized?
 tags:
 - thoughts
 - technology
