@@ -5,6 +5,7 @@ date: 2012-02-07 21:26:03+00:00
 layout: page
 slug: about-me
 title: About Kaustav
+excerpt: About Kaustav Das Modak, including his brief biography, profile, social links, contact information and CV.
 nav: true
 nav_title: About
 wordpress_id: 24
