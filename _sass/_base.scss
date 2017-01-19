@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-    transition: color 0.75s;
+    transition: color 0.75s ease-out;
 
     &:visited {
         color: $brand-color;
@@ -119,14 +119,17 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: darken($text-color, 20%);
     line-height: 1.5;
-    border-left: 4px solid $brand-color;
-    padding-left: $spacing-unit / 2;
+    border-left: 4px solid darken($text-color, 10%);
+    border-right: 4px solid darken($text-color, 10%);
+    padding: $spacing-unit / 2;
     font-size: 1.2rem;
     font-weight: 300;
     font-style: normal;
     margin-bottom: 1.5rem;
+    color: darken($white-color, 1%);
+    background-color: $text-color;
+    box-sizing: border-box;
 
     > :last-child {
         margin-bottom: 0;

@@ -190,15 +190,48 @@ h1 {
         margin-bottom: $spacing-unit;
         display: flex;
         align-items: baseline;
+        flex-direction: column;
 
-        @include media-query($on-palm) {
-            flex-direction: column;
+        .post-info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+            @include media-query($on-palm) {
+                flex-direction: column;
+            }
+
+            .post-info-title {
+                margin-right: 1rem;
+                margin-bottom: 0.25rem;
+
+                @include media-query($on-palm) {
+                    margin-right: 0;
+                    order: 2;
+                }
+            }
         }
 
         .post-meta {
-            margin-right: 1.5rem;
+            padding: 0.5rem;
             min-width: 5.4rem;
-            text-align: right;
+        }
+
+        .tags {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            background-color: transparent;
+            color: #bbb;
+
+            a {
+                color: #bbb;
+
+                &:hover {
+                    color: #828282;
+                }
+            }
         }
 
         h1, h2, h3 {

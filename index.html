@@ -13,11 +13,18 @@ layout: default
     <ul class="post-list">
         {% for post in paginator.posts %}
         <li>
-            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+            <div class="post-info">
+                <h2 class="post-info-title">
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+            </div>
 
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
+            {% if post.tags.size > 0 %}
+            <div class="meta">
+                <span class="post-meta tags">Tags: {{ post | tags }}</span>
+            </div>
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
