@@ -4,6 +4,11 @@ sudo: false
 rvm:
 - 2.3.1
 
+addons:
+  apt:
+    packages:
+      - sshpass
+
 before_script:
 - chmod +x ./scripts/cibuild.sh
 - chmod +x ./scripts/cideploy.sh
