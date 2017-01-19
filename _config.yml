@@ -32,7 +32,7 @@ paginate: 7
 paginate_path: "/page-:num/"
 
 # Exclude
-exclude: [scripts/, README.md, Gemfile, Gemfile.lock]
+exclude: [scripts/, README.md, Gemfile, Gemfile.lock, vendor]
 
 # Tags
 tag_page_layout: tag_page
