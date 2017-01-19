@@ -10,7 +10,7 @@ tags:
 - privacy
 ---
 
-Privacy has many facets. The issue of privacy bothers us in today's ever-more connected world because we do not control its manifestations. We see elaborate privacy policies, bills, laws and rights in place. Yet, it is difficult to build a right privacy-aware system for everyone given that the concept of privacy is highly subjective and is open to interpretations.
+We see elaborate privacy policies, bills, laws and rights in place. Yet, it is difficult to build a right privacy-aware system for everyone given that the concept of privacy is highly subjective and is open to interpretations.
 
 Before we dig deeper, let us take a look at a few manifestations of privacy in the domain of data transmission. Consider this:
 
