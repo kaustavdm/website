@@ -8,23 +8,33 @@ layout: default
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
 
       {% if page.subheader %}
-      <p class="subheader">{{ page.subheader | strip_html }}</p>
+      <p class="subheader" itemprop="description">{{ page.subheader | strip_html }}</p>
       {% endif %}
     </div>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-      {% if page.image %}
-      <img src="{{ site.baseurl }}/images/covers/{{ page.image }}" alt="{{ page.title }}" class="cover">
-      {% endif %}
-      {{ content }}
+  <div class="post-content">
+    {% if page.image %}
+    <img src="{{ site.baseurl }}/images/covers/{{ page.image }}" alt="{{ page.title }}" class="cover"
+         itemprop="image">
+    {% endif %}
+    <div itemprop="articleBody">{{ content }}</div>
   </div>
 
   <div class="meta">
-    <p class="post-meta">Posted on: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <p class="post-meta">
+      Posted on:
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      by
+      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <a href="/about-me" itemprop="url"><span itemprop="name">Kaustav Das Modak</span></a>
+      </span>
+    </p>
     {% if page.tags.size > 0 %}
     <p class="post-meta tags">
-      Tagged with {{ page | tags}}
+      Tagged with <span itemprop="keywords">{{ page | tags }}</span>
     </p>
     {% endif %}
   </div>
