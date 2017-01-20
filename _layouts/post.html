@@ -15,8 +15,12 @@ layout: default
 
   <div class="post-content">
     {% if page.image %}
-    <img src="{{ site.baseurl }}/images/covers/{{ page.image }}" alt="{{ page.title }}" class="cover"
-         itemprop="image">
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+      <img src="{{ '/images/covers/' | absolute_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
+           itemprop="url">
+      <meta itemprop="width" content="740">
+      <meta itemprop="height" content="300">
+    </div>
     {% endif %}
     <div itemprop="articleBody">{{ content }}</div>
   </div>
@@ -28,8 +32,15 @@ layout: default
         {{ page.date | date: "%b %-d, %Y" }}
       </time>
       by
-      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-        <a href="/about-me" itemprop="url"><span itemprop="name">Kaustav Das Modak</span></a>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Kaustav Das Modak</span>
+        <link href="{{ '/about-me/' | absolute_url }}" itemprop="url">
+      </span>
+    </p>
+    <p class="hidden">
+      <span itemprop="publisher" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Kaustav Das Modak</span>
+        <link href="{{ site.url }}" itemprop="url">
       </span>
     </p>
     {% if page.tags.size > 0 %}
@@ -38,5 +49,7 @@ layout: default
     </p>
     {% endif %}
   </div>
+
+
 
 </article>
