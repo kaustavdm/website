@@ -464,3 +464,20 @@ h1 {
 .small {
     font-size: 0.75rem;
 }
+
+/* Note */
+.note {
+  background-color: #f3f3f3 !important;
+  padding: 2rem;
+
+  &::before {
+      content: "Note:";
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.5rem;
+  }
+
+  @include media-query($on-palm) {
+      padding: 1.5rem;
+  }
+}

@@ -134,6 +134,18 @@ blockquote {
     > :last-child {
         margin-bottom: 0;
     }
+
+    a,
+    a:visited {
+        color: #f3f3f3;
+        box-sizing: border-box;
+        border-bottom: 1px solid #fff;
+    }
+
+    a:hover {
+        color: #fff;
+        border-bottom-width: 2px;
+    }
 }
 
 
