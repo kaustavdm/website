@@ -14,6 +14,8 @@ url: "https://kaustavdm.in" # the base hostname & protocol for your site
 twitter_username: kaustavdm
 github_username:  kaustavdm
 
+ga: "UA-71406467-2"
+
 gems: [jekyll-paginate]
 
 # Site settings
