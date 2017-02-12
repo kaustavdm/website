@@ -9,10 +9,6 @@ addons:
     packages:
       - sshpass
 
-before_script:
-- chmod +x ./scripts/cibuild.sh
-- chmod +x ./scripts/cideploy.sh
-
 script: "./scripts/cibuild.sh"
 
 deploy:

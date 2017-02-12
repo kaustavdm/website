@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
-bundle exec jekyll build
+bundle exec jekyll clean
+
+bundle exec jekyll build $@
 
 cp -vf ./scripts/_.htaccess ./_site/.htaccess
 
