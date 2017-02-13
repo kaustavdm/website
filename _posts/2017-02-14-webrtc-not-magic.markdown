@@ -14,7 +14,7 @@ Since the first time I read The Lord of The Rings, I have been very interested i
 
 A Palantír could connect to any other Palantír and people at both ends could see each other and often read each other's thoughts.  These Palantíri were communication devices; smooth, spherical orbs, often too heavy to lift and too difficult to manage. Only the strongest could control them. Any lesser mortal could fall prey to the call of the orbs; Pippin almost got his brain fried trying to take a look at one of those.
 
-> *"Any sufficiently advanced technology is indistinguishable from magic."*
+> "Any sufficiently advanced technology is indistinguishable from magic."
 >
 > &mdash; *Profiles of the Future*, Arthur Clarke
 
