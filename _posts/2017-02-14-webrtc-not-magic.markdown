@@ -51,3 +51,5 @@ So, where to start if you want to get knee deep?
 - Stay updated: Sign up for the newsletter from [Kranky Geek](https://www.krankygeek.com/).
 
 Once you have learnt enough about WebRTC, it will not be an enigmatic magical puzzle any more. You would have learnt the science behind the magic. You can still call yourself a wizard.
+
+<p class="meta"><small>Cover image source: <a href="https://pixabay.com/en/hands-sphere-light-fingers-magic-1835994/">Illustration by Rafael_Zajczewski</a> and <a href="https://webrtc.org/press/">WebRTC logo</a>.</small></p>
