@@ -7,6 +7,7 @@ subheader: WebRTC allows peers to see and talk to each other worldwide in real-t
 tags:
 - webrtc
 - technology
+- communication
 - thoughts
 ---
 
