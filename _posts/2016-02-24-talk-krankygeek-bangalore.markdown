@@ -7,6 +7,7 @@ tags:
 - presentations
 - mozilla
 - webrtc
+- events
 ---
 
 I'll be speaking about the state of WebRTC in Firefox at [Kranky Geek's WebRTC event][kranky] in Bangalore on March 19, 2016.
