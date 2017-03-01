@@ -16,7 +16,7 @@ Exactly one year after the big [Kranky Geek](https://krankygeek.com) in Bangalor
 
 Add to that, we will be doing workshops on building real-time media applications with [TokBox](https://tokbox.com). While the Kranky Geek events will focus on WebRTC as a technology, the TokBox events are commercial in nature as they will focus on TokBox SDKs and APIs. TokBox is sponsoring all of these events and we have partnered with the lovely [91Springboard](http://www.91springboard.com/) to host our Bangalore and Hyderabad events.
 
-These events are primarily for developers &mdash; we plan to go deep into the code and geek out on WebRTC APIs. If you are interested about real-time communication standards or want to get an in-depth understanding of how RTC works in the browser and mobile, these sessions will be an excellent jumpstart in your quest. We will have our experts talk about what the world is doing with WebRTC and how you can push the boundaries. Yours truly will also conduct some of these sessions (*humbly bows*).
+These events are primarily for developers &mdash; we plan to go deep into the code and geek out on WebRTC APIs. If you are interested about real-time communication standards or want to get an in-depth understanding of how RTC works in the browser and mobile, these sessions will be an excellent jumpstart in your quest. We will have our experts talk about what the world is doing with WebRTC and how you can push the boundaries. Yours truly will also conduct some of these sessions (*bows humbly*).
 
 ## Dates and registration links
 
