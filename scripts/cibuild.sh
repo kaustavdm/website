@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
-bundle exec jekyll clean
+if [ $1 != "--incremental" ]; then
+  bundle exec jekyll clean
+fi
 
 bundle exec jekyll build $@
 
