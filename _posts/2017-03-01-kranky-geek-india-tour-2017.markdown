@@ -38,7 +38,7 @@ These events are primarily for developers &mdash; we plan to go deep into the co
 
 ### Chennai
 
-- Venue: *TBD*
+- Venue: [IIT Madras Research Park](https://goo.gl/maps/3ZfqbUjFNDP2)
 - Dates:
   - Kranky Geek, March 26: [Registration link](https://www.eventbrite.com/e/kranky-geek-webrtc-tour-chennai-tickets-32361570328)
   - TokBox Workshop, March 28: [Registration link](https://www.eventbrite.com/e/tokbox-webrtc-developer-workshop-chennai-tickets-32364333593)
@@ -49,3 +49,7 @@ For more information about this tour check these articles:
 
 - [Kranky Geek WebRTC Returns to India](https://www.chriskranky.com/kranky-geek-webrtc-returns-india/)
 - [Join Us in India for the Kranky Geek WebRTC Tour (March 2017)](https://tokbox.com/blog/kranky-geek-webrtc-tour-india/)
+
+---
+
+Edit: This post was updated on March 17 with venue for the Chennai events.
