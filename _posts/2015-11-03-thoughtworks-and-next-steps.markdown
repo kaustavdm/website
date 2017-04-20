@@ -27,7 +27,7 @@ Now, this is where [Deb](http://debs.io) and [Nayanika](https://twitter.com/pawz
 
 ## Why ThoughtWorks?
 
-![Why not?](/images/posts/2724043.jpg)
+![Why not?](/assets/images/posts/2724043.jpg)
 
 To quote Dr. John A. Zoidberg, "Why not?"
 

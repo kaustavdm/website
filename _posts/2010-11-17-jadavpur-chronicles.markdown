@@ -9,7 +9,7 @@ categories:
 - Photography
 ---
 
-![Jadavpur University](/images/posts/JadavpurChronicles.jpg)
+![Jadavpur University](/assets/images/posts/JadavpurChronicles.jpg)
 
 I shot some photos shot at Jadavpur University.
 
