@@ -17,10 +17,10 @@ layout: default
     {% if page.image %}
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
       {% if jekyll.environment == "production" %}
-      <img src="{{ '/images/covers/' | absolute_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
+      <img src="{{ '/assets/images/covers/' | absolute_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
            itemprop="url">
       {% else %}
-      <img src="{{ '/images/covers/' | relative_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
+      <img src="{{ '/assets/images/covers/' | relative_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
            itemprop="url">
       {% endif %}
       <meta itemprop="width" content="740">

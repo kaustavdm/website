@@ -8,13 +8,12 @@
   <meta name="description" content="{{ page.subheader | default: page.excerpt | default: site.description | strip_html | strip_newlines }}">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto+Slab:300,400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
   {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}/images/covers/{{ page.image }}" />
+  <meta property="og:image" content="{{ '/assets/images/covers' | absolute_url }}/{{ page.image }}" />
   {% else %}
-  <meta property="og:image" content="{{ site.url }}/images/kido.jpg" />
+  <meta property="og:image" content="{{ '/assets/images' | absolute_url}}/kido.jpg" />
   {% endif %}
 </head>
