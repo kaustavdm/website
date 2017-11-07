@@ -44,7 +44,7 @@ layout: default
     </p>
     {% if page.tags.size > 0 %}
     <p class="post-meta tags">
-      Tagged with <span itemprop="keywords">{{ page | tags }}</span>
+      Tagged with <span itemprop="keywords">{{ page.tags | sort | join: ", " }}</span>
     </p>
     {% endif %}
   </div>

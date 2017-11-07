@@ -16,14 +16,16 @@ github_username:  kaustavdm
 
 ga: "UA-71406467-2"
 
-gems: [jekyll-paginate]
+plugins:
+   - jekyll-paginate
+   - jekyll-sitemap
+   - jekyll-feed
 
 # Site settings
 markdown: kramdown
 
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
 timezone: Asia/Kolkata
 
@@ -35,6 +37,9 @@ paginate_path: "/page-:num/"
 
 # Exclude
 exclude: [scripts/, README.md, Gemfile, Gemfile.lock, vendor]
+
+# Safe mode
+safe: true
 
 # Tags
 tag_page_layout: tag_page

@@ -22,7 +22,7 @@ layout: default
 
             {% if post.tags.size > 0 %}
             <div class="meta">
-                <span class="post-meta tags">Tags: {{ post | tags }}</span>
+                <span class="post-meta tags">Tags: {{ post.tags | sort | join: ", " }}</span>
             </div>
             {% endif %}
         </li>
