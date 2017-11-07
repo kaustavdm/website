@@ -3,3 +3,4 @@ Disallow: /errors/
 Disallow: /categories/
 Disallow: /user/
 Disallow: /author/
+Disallow: /tags/

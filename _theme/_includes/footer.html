@@ -19,8 +19,10 @@
           {% endif %}
         </ul>
 
-        <div class="rss-subscribe"><a class="button" href="{{ "/feed.xml" | prepend: site.baseurl }}"
-                                   title="Subscribe via RSS">Subscribe</a></div>
+        <div class="rss-subscribe">
+          <a class="button" href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Subscribe via RSS">RSS</a>
+          <a class="button" href="{{ "/atom.xml" | prepend: site.baseurl }}" title="Subscribe via Atom">Atom</a>
+        </div>
       </div>
 
       <div class="footer-col">
