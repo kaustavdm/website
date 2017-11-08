@@ -52,4 +52,3 @@ sass:
   style: compressed
   load_paths:
     - _theme/_sass
-    - _theme/_vendors/foundation-sites/scss
