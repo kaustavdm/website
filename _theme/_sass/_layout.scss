@@ -393,8 +393,10 @@ h1 {
     }
 
     .banner {
+      margin: 0 1.25rem 1.25rem 0;
+      float: left;
+      color: $grey-color;
       text-align: center;
-      margin: 1rem 0;
 
       img {
         padding: 0.25rem;
