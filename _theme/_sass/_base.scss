@@ -123,7 +123,7 @@ blockquote {
     border-left: 4px solid darken($text-color, 10%);
     border-right: 4px solid darken($text-color, 10%);
     padding: $spacing-unit / 2;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 300;
     font-style: normal;
     margin-bottom: 1.5rem;
@@ -139,12 +139,10 @@ blockquote {
     a:visited {
         color: #f3f3f3;
         box-sizing: border-box;
-        border-bottom: 1px solid #fff;
     }
 
     a:hover {
         color: #fff;
-        border-bottom-width: 2px;
     }
 }
 
