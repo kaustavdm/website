@@ -186,6 +186,10 @@ h1 {
     margin-left: 0;
     list-style: none;
 
+    .subheader {
+        font-size: 1rem;
+    }
+
     > li {
         margin-bottom: $spacing-unit;
         display: flex;
@@ -303,7 +307,7 @@ h1 {
 }
 
 .subheader {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     color: $grey-color;
     margin-bottom: 1rem;
     line-height: 1.4;

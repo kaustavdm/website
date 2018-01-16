@@ -5,10 +5,10 @@ layout: default
 
   <header class="post-header">
     <div class="post-title-wrapper">
-      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <h1 class="post-title" itemprop="name headline">{{ page.title | xml_escape }}</h1>
 
       {% if page.subheader %}
-      <p class="subheader" itemprop="description">{{ page.subheader | strip_html }}</p>
+      <p class="subheader" itemprop="description">{{ page.subheader | xml_escape | strip_html }}</p>
       {% endif %}
     </div>
   </header>
