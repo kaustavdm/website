@@ -1,8 +1,8 @@
 ---
 layout: post
 slug: hr-styling
-title: Styling your &lt;hr&gt; tags
-subheader: Create a horizontal separator like Medium.com using <hr> tags and some CSS
+title: Styling your <hr> tags
+subheader: Create a horizontal separator like Medium.com using <hr> tags and some CSS.
 tags:
 - css
 ---
