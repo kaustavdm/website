@@ -484,3 +484,21 @@ h1 {
       padding: 1.5rem;
   }
 }
+
+
+hr:after {
+    display: block;
+    text-align:center;
+    content: "...";
+    color: $grey-color;
+    font-size: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    clear:both;
+    border: none;
+}
+
+hr {
+    border: none;
+    margin: 2rem;
+}
