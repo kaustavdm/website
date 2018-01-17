@@ -187,7 +187,10 @@ h1 {
     list-style: none;
 
     .subheader {
+        border-top: 1px solid lighten(#ccc, 10%);
+        padding-top: 0.5rem;
         font-size: 1rem;
+        width: 100%;
     }
 
     > li {
@@ -195,6 +198,13 @@ h1 {
         display: flex;
         align-items: baseline;
         flex-direction: column;
+        padding: 1rem;
+        box-shadow: 0 1px 2px #ccc;
+        transition: 0.25s box-shadow linear;
+
+        &:hover {
+            box-shadow: 0 2px 4px darken(#ccc, 5%);
+        }
 
         .post-info {
             display: flex;
@@ -210,6 +220,7 @@ h1 {
             .post-info-title {
                 margin-right: 1rem;
                 margin-bottom: 0.25rem;
+                line-height: 1.25;
 
                 @include media-query($on-palm) {
                     margin-right: 0;
