@@ -2,8 +2,8 @@
 layout: post
 slug: red5-pro-webrtc-first-impression
 title: "Red5 Pro WebRTC: First impression"
-image: red5-pro-banner.png
-subheader: A quick review on building a basic WebRTC multi-party conference using Red5 Pro media streaming server.
+image: /assets/images/covers/red5-pro-banner.png
+description: A quick review on building a basic WebRTC multi-party conference using Red5 Pro media streaming server.
 tags:
 - webrtc
 - technology

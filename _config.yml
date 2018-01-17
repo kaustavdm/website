@@ -10,14 +10,29 @@ title: Kaustav Das Modak
 email: kaustav.dasmodak@gmail.com
 description: "Kaustav's journal. An anecdote on research, programming, philosophy and what not."
 baseurl: "" # the subpath of your site, e.g. /blog
+lang: "en_GB"
 url: "https://kaustavdm.in" # the base hostname & protocol for your site
-twitter_username: kaustavdm
-github_username:  kaustavdm
+author:
+  name: Kaustav Das Modak
+  image: /assets/images/kido.jpg
+  twitter: kaustavdm
+twitter:
+  username: kaustavdm
+github:
+  username: kaustavdm
+social:
+  name: Kaustav Das Modak
+  links:
+    - https://github.com/kaustavdm
+    - http://twitter.com/kaustavdm
+    - https://www.linkedin.com/in/kaustavdm
+    - https://facebook.com/kaustavdm
 
 plugins:
-   - jekyll-paginate
-   - jekyll-sitemap
-   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Site settings
 markdown: kramdown

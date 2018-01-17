@@ -2,7 +2,7 @@
 layout: post
 slug: versioning-content-postgresql
 title: Store revisions of content in PostgreSQL
-subheader: A simple way of storing and retrieving older versions of content, a.k.a, record history in PostgreSQL using triggers.
+description: A simple way of storing and retrieving older versions of content, a.k.a, record history in PostgreSQL using triggers.
 tags:
 - postgresql
 - database

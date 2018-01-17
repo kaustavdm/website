@@ -2,7 +2,7 @@
 layout: post
 slug: escape-route
 title: "Taking the escape route"
-image: chibi-marine-concept.jpg
+image: /assets/images/covers/chibi-marine-concept.jpg
 tags:
 - thoughts
 - philosophy

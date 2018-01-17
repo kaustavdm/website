@@ -2,7 +2,7 @@
 layout: post
 slug: talk-krankygeek-bangalore
 title: "Talk: Kranky Geek WebRTC event in Bangalore"
-image: krankygeek-webrtc.png
+image: /assets/images/covers/krankygeek-webrtc.png
 tags:
 - presentations
 - mozilla

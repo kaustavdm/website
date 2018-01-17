@@ -7,8 +7,8 @@ layout: default
     <div class="post-title-wrapper">
       <h1 class="post-title" itemprop="name headline">{{ page.title | xml_escape }}</h1>
 
-      {% if page.subheader %}
-      <p class="subheader" itemprop="description">{{ page.subheader | xml_escape }}</p>
+      {% if page.description %}
+      <p class="subheader" itemprop="description">{{ page.description | xml_escape }}</p>
       {% endif %}
     </div>
   </header>
@@ -17,10 +17,10 @@ layout: default
     {% if page.image %}
     <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
       {% if jekyll.environment == "production" %}
-      <img src="{{ '/assets/images/covers/' | absolute_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
+      <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
            itemprop="url">
       {% else %}
-      <img src="{{ '/assets/images/covers/' | relative_url }}{{ page.image }}" alt="{{ page.title }}" class="cover"
+      <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
            itemprop="url">
       {% endif %}
       <meta itemprop="width" content="740">

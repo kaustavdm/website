@@ -2,8 +2,8 @@
 layout: post
 slug: opentok-count-participants-clientside
 title: "Count participants client-side in OpenTok"
-image: opentok-room-count.jpg
-subheader: You can use events triggered by OpenTok client SDKs to show the number of active participants in a multi-party WebRTC call running on TokBox, entirely on the client-side. Here is how.
+image: /assets/images/covers/opentok-room-count.jpg
+description: You can use events triggered by OpenTok client SDKs to show the number of active participants in a multi-party WebRTC call running on TokBox, entirely on the client-side. Here is how.
 tags:
 - webrtc
 - tokbox

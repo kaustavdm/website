@@ -2,7 +2,7 @@
 layout: post
 slug: communication-divide-continuum
 title: Communication divide continuum
-subheader: Today's communication technologies still carry on the legacy of divide we face in the real world. Healing this fragmentation requires designing technologies with empathy and inclusivity from the lowest level.
+description: Today's communication technologies still carry on the legacy of divide we face in the real world. Healing this fragmentation requires designing technologies with empathy and inclusivity from the lowest level.
 tags:
 - communication
 - technology

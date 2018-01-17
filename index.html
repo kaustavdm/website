@@ -19,8 +19,8 @@ layout: default
                 </h2>
                 <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
             </div>
-            {% if post.subheader %}
-              <div class="subheader">{{ post.subheader | xml_escape }}</div>
+            {% if post.description %}
+              <div class="subheader">{{ post.description | xml_escape }}</div>
             {% endif %}
 
             {% if post.tags.size > 0 %}

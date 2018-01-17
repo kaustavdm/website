@@ -2,8 +2,8 @@
 layout: post
 slug: webrtc-not-magic
 title: WebRTC isn't magic
-image: webrtc-not-magic.jpg
-subheader: WebRTC allows peers to see and talk to each other worldwide in real-time. It can look and sound like magic at the outset, till you learn to wield it.
+image: /assets/images/covers/webrtc-not-magic.jpg
+description: WebRTC allows peers to see and talk to each other worldwide in real-time. It can look and sound like magic at the outset, till you learn to wield it.
 tags:
 - webrtc
 - technology
