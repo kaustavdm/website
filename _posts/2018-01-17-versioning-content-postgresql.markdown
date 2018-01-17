@@ -124,13 +124,15 @@ begin
         else
             -- Subsequent edits of node
             insert into node_revisions (node_id, created_at, subject, body)
-            values (old.id, old.created_at, old.subject, old.body);
+            values (old.id, old.updated_at, old.subject, old.body);
         end if;
     end if;
     -- Return the `NEW` record so that update can carry on as usual
     return new;
 end; $body$;
 ```
+
+<small>Edit: Fixed trigger function code after [@chrisbisnett](https://twitter.com/chrisbisnett) [pointed out](https://twitter.com/chrisbisnett/status/953475481818550272) I had used wrong column for `node_revisions.created_at` when `old.updated_at` is not null.</small>
 
 Then, we'll have to create the trigger to run the `trigger_on_node_revision()` function before update for each row on the `nodes` table:
 
