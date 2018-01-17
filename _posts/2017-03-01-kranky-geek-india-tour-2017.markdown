@@ -3,7 +3,7 @@ layout: post
 slug: kranky-geek-india-tour-2017
 title: Kranky Geek India Tour 2017
 image: kranky-geek-india-tour-2017.png
-subheader: Kranky Geek is coming to India on a 3 city WebRTC tour this March &mdash; covering Bangalore, Hyderabad and Chennai. We will also have workshops on building RTC apps with TokBox in each city. Grab your seat!
+subheader: Kranky Geek is coming to India on a 3 city WebRTC tour this March - covering Bangalore, Hyderabad and Chennai. We will also have workshops on building RTC apps with TokBox in each city. Grab your seat!
 tags:
 - webrtc
 - technology
