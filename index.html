@@ -25,7 +25,9 @@ layout: default
 
             {% if post.tags.size > 0 %}
             <div class="meta">
-                <span class="post-meta tags">Tags: {{ post.tags | sort | join: ", " }}</span>
+                <span class="post-meta tags">
+                  {% include parsetags.html tags=post.tags %}
+                </span>
             </div>
             {% endif %}
         </li>

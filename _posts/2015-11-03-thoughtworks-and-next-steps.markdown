@@ -7,7 +7,7 @@ slug: thoughtworks-and-next-steps
 title: Re-starting. ThoughtWorks and next steps
 tags:
 - applait
-- philosophy
+- thoughts
 - thoughtworks
 ---
 

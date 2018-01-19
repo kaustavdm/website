@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div>
+  <h1 class="page-heading">Tag: {{ page.title }}</h1>
+  <p class="subheader">Articles in this blog tagged with "{{ page.title }}"</p>
+
+  {% if content %}
+    <div class="post-content">
+      <div itemprop="articleBody" class="article-body">{{ content }}</div>
+    </div>
+  {% endif %}
+
+  {% if site.tags[page.slug] %}
+    <ul class="post-list">
+      {% for post in site.tags[page.slug] %}
+        <li>
+          <div class="post-info">
+              <h2 class="post-info-title">
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
+              </h2>
+              <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          </div>
+          {% if post.description %}
+            <div class="subheader">{{ post.description | xml_escape }}</div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>There are no posts in this tag.</p>
+  {% endif %}
+
+  <a href="{{ '/' | relative_url }}" class="button">Back to blog</a>
+</div>

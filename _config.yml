@@ -67,3 +67,28 @@ sass:
   style: compressed
   load_paths:
     - _theme/_sass
+
+collections:
+  tagslist:
+    output: true
+    permalink: /tag/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: tagslist
+    values:
+      layout: tag
