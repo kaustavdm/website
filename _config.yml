@@ -93,3 +93,5 @@ defaults:
       type: tagslist
     values:
       layout: tag
+
+github: [metadata]
