@@ -36,6 +36,7 @@ plugins:
 
 # Site settings
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   input: GFM
