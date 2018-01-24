@@ -6,13 +6,13 @@
     {% assign tag = tag[0] %}
     {% if tag %}
       {% capture tmp_parsed %}
-        <a href="{{ '/tag/' | append: tag.slug | relative_url }}">{{ tag.title }}</a>\n
+        <a class="tag" href="{{ '/tag/' | append: tag.slug | relative_url }}">{{ tag.title }}</a>
       {% endcapture %}
       {% assign tmp_parsed = tmp_parsed | strip %}
       {% assign parsedtags = parsedtags | append: tmp_parsed %}
     {% endif %}
   {% endfor %}
   {% if parsedtags.size > 0 %}
-    Tags: {{ parsedtags | split: "\n" | join: ", " }}
+    {{ parsedtags }}
   {% endif %}
 {% endif %}

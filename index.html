@@ -2,52 +2,58 @@
 layout: default
 ---
 
-<div class="paginated paginated-page paginated-page-{{ paginator.page }}">
+{% if paginator.page == 1 %}
+  {% include about-blurb.html %}
+{% endif %}
 
-    {% if paginator.page > 1 %}
-    <h1 class="page-heading">Posts <small>Page {{ paginator.page }}</small></h1>
-    {% else %}
-    <h1 class="page-heading hidden">Posts</h1>
-    {% endif %}
+<section class="section">
+    <div class="container">
 
-    <ul class="post-list">
-        {% for post in paginator.posts %}
-        <li>
-            <div class="post-info">
-                <h2 class="post-info-title">
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
-                </h2>
-                <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-            </div>
+      <div class="columns is-centered">
+        <div class="column is-four-fifths-desktop is-three-fifths-widescreen">
+          {% if paginator.page > 1 %}
+              <h1 class="title">Blog <small>Page {{ paginator.page }}</small></h1>
+          {% else %}
+              <h1 class="title">Blog</h1>
+          {% endif %}
+
+          {% for post in paginator.posts %}
+          <div class="box">
+            <h2 class="title is-4 is-spaced">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
+            </h2>
             {% if post.description %}
-              <div class="subheader">{{ post.description | xml_escape }}</div>
+            <p class="subtitle is-6">{{ post.description | xml_escape }}</p>
             {% endif %}
-
-            {% if post.tags.size > 0 %}
-            <div class="meta">
-                <span class="post-meta tags">
+            <div class="level">
+              <div class="level-left">
+                  <span class="post-meta is-size-6 has-text-grey">{{ post.date | date: "%b %d, %Y" }}</span>
+              </div>
+              {% if post.tags.size > 0 %}
+              <div class="level-right">
+                <div class="tags is-size-6">
                   {% include parsetags.html tags=post.tags %}
-                </span>
+                </div>
+              </div>
+              {% endif %}
             </div>
+          </div>
+          {% endfor %}
+
+          <nav class="pagination" role="navigation" aria-label="pagination">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="pagination-previous" title="Newer posts">Newer</a>
+            {% else %}
+            <span class="pagination-previous" disabled>Newer</span>
             {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
 
-    <div class="pagination-links">
-        {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% else %}
-        <span class="previous inactive">Previous</span>
-        {% endif %}
-
-        <span class="pagination-link-divider"></span>
-
-        {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-        <span class="next inactive">Next</span>
-        {% endif %}
-    </div>
-
-</div>
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="pagination-next" title="Older posts">Older</a>
+            {% else %}
+            <span class="pagination-next" disabled>Older</span>
+            {% endif %}
+          </nav>
+        </div> <!-- /.column -->
+    </div> <!-- /.columns -->
+  </div> <!-- /.container -->
+</section> <!-- /.section -->

@@ -1,53 +1,40 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col">
-        <ul class="social-media-list">
-          {% if site.github.username %}
-          <li>
-            {% include icon-github.html username=site.github.username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter.username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter.username %}
-          </li>
-          {% endif %}
-        </ul>
-
-        <div class="rss-subscribe">
-          <a class="button" href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Subscribe via RSS">RSS</a>
-          <a class="button" href="{{ "/atom.xml" | prepend: site.baseurl }}" title="Subscribe via Atom">Atom</a>
+<footer class="footer">
+  <div class="container">
+    <div class="level">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Follow</p>
+          <div class="buttons has-addons">
+            {% if site.github_username %}
+              {% include icon-github.html username=site.github_username %}
+            {% endif %}
+            {% if site.twitter.username %}
+              {% include icon-twitter.html username=site.twitter.username %}
+            {% endif %}
+          </div>
         </div>
       </div>
-
-      <div class="footer-col">
-          <p>{{ site.description }}</p>
-          <div xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-              <a rel="license" class="button"
-                 href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">
-                  <img src="{{ '/assets/images/public-domain-license.png' | relative_url }}" style="border-style: none;" alt="CC0" />
+      <div class="level-item has-text-centered">
+          <div>
+            <p>
+              <a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license cc:license" target="_blank"
+              title="Except where otherwise noted, this work has been dedicated to the public domain using CC0."
+              class="">
+                <span>No rights reserved</span>
+                <span class="icon is-small"><img src="{{ '/assets/images/zero.svg' | relative_url }}" alt="CC0" /></span>
               </a>
-              <p class="hidden">
-                  To the extent possible under law,
-                  <a rel="dct:publisher"
-                     href="https://kaustavdm.in">
-                      <span property="dct:title">Kaustav Das Modak</span></a>
-                  has waived all copyright and related or neighboring rights to
-                  <span property="dct:title">Kaustav's Blog</span>.
-                  This work is published from:
-                  <span property="vcard:Country" datatype="dct:ISO3166"
-                        content="IN" about="https://kaustavdm.in">
-                      India</span>.
-              </p>
+            </p>
           </div>
+        </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="heading">Feeds</p>
+          <div class="buttons has-addons">
+            <a class="button" href="{{ " /feed.xml " | prepend: site.baseurl }}" title="Subscribe via RSS">RSS</a>
+            <a class="button" href="{{ " /atom.xml " | prepend: site.baseurl }}" title="Subscribe via Atom">Atom</a>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
-
 </footer>

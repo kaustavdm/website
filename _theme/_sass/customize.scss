@@ -1,0 +1,81 @@
+$family-serif: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$family-primary: $family-serif;
+$family-monospace: "Roboto Mono", monospace;
+$family-code: $family-monospace;
+
+// colours
+$blue: hsl(207, 92%, 24%);
+$blue-invert: findColorInvert($blue);
+$primary: #FF7474;
+$primary-invert: findColorInvert($primary);
+$magenta: #6c3b8d;
+$text: $grey-dark;
+$link: $grey-darker;
+$link-hover: $grey-dark;
+$link-invert: $white-ter;
+$code: $grey-dark;
+$code-background: transparent;
+
+// sizes
+$size-5: 1.125rem;
+$size-medium: $size-5;
+
+// image
+$dimensions: 16 24 32 48 64 96 128 200 256 !default;
+
+// Extra CSS
+.has-margin-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.has-margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.has-margin-bottom-large {
+    margin-bottom: 2rem;
+}
+
+.content {
+
+    pre.highlight {
+        border: 1px solid $grey-lighter;
+        line-height: 1.25;
+        margin-bottom: 1rem;
+        border-radius: 0.25rem;
+    }
+
+    a {
+        text-decoration: underline;
+
+        &.button {
+            text-decoration: none;
+        }
+    }
+
+    hr {
+        border: none;
+        margin: 2rem;
+        background: transparent;
+        height: auto;
+
+        &:after {
+            display: block;
+            text-align: center;
+            content: "...";
+            color: #333333;
+            font-size: 2rem;
+            height: 2rem;
+            line-height: 0.5;
+            clear: both;
+            border: none;
+        }
+    }
+}
+
+.footnotes {
+    font-size: $size-6;
+    margin-top: 2rem;
+    border-top: 1px solid $grey;
+}

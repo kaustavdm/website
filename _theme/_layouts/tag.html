@@ -2,35 +2,42 @@
 layout: default
 ---
 
-<div>
-  <h1 class="page-heading">Tag: {{ page.title }}</h1>
-  <p class="subheader">Articles in this blog tagged with "{{ page.title }}"</p>
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths-desktop is-three-fifths-widescreen">
 
-  {% if content %}
-    <div class="post-content">
-      <div itemprop="articleBody" class="article-body">{{ content }}</div>
-    </div>
-  {% endif %}
+        <h1 class="title is-spaced">Tag: {{ page.title }}</h1>
+        <p class="subtitle">Articles in this blog tagged with "{{ page.title }}"</p>
 
-  {% if site.tags[page.slug] %}
-    <ul class="post-list">
-      {% for post in site.tags[page.slug] %}
-        <li>
-          <div class="post-info">
-              <h2 class="post-info-title">
+        {% if content %}
+        <div itemprop="articleBody" class="content has-margin-bottom">{{ content }}</div>
+        {% endif %}
+        <div class="has-margin-bottom-large">
+          {% if site.tags[page.slug] %}
+            {% for post in site.tags[page.slug] %}
+              <div class="box">
+                <h2 class="title is-4 is-spaced">
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
-              </h2>
-              <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-          </div>
-          {% if post.description %}
-            <div class="subheader">{{ post.description | xml_escape }}</div>
+                </h2>
+                {% if post.description %}
+                <p class="subtitle is-6">{{ post.description | xml_escape }}</p>
+                {% endif %}
+                <div class="level">
+                  <div class="level-left">
+                      <span class="post-meta is-size-6 has-text-grey">{{ post.date | date: "%b %d, %Y" }}</span>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          {% else %}
+            <p>There are no posts in this tag.</p>
           {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p>There are no posts in this tag.</p>
-  {% endif %}
+        </div>
 
-  <a href="{{ '/' | relative_url }}" class="button">Back to blog</a>
-</div>
+        <div><a href="{{ '/' | relative_url }}" class="button">Back to blog</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>

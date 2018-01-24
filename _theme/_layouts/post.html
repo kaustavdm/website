@@ -3,52 +3,62 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <div class="post-title-wrapper">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | xml_escape }}</h1>
+  <section class="section">
 
-      {% if page.description %}
-      <p class="subheader" itemprop="description">{{ page.description | xml_escape }}</p>
-      {% endif %}
+    <header class="container">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths-desktop is-two-thirds-widescreen has-margin-bottom-large">
+          <h1 class="title is-spaced" itemprop="name headline">{{ page.title | xml_escape }}</h1>
+
+          {% if page.description %}
+          <p class="subtitle has-text-grey" itemprop="description">{{ page.description | xml_escape }}</p>
+          {% endif %}
+          {% if page.image %}
+          <div class="card">
+            <div class="card-image">
+              <figure class="image has-margin-bottom" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
+                    itemprop="url">
+                <meta itemprop="width" content="740">
+                <meta itemprop="height" content="300">
+              </figure>
+            </div>
+          </div>
+          {% endif %}
+          <div class="level">
+            <div class="level-left">
+              <p class="post-meta has-text-grey-light">
+                Posted on:
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                  {{ page.date | date: "%b %-d, %Y" }}
+                </time>
+                <span class="is-invisible">by
+                  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name">Kaustav Das Modak</span>
+                    <link href="{{ '/about-me/' | absolute_url }}" itemprop="url">
+                  </span>
+                </span>
+              </p>
+            </div>
+            {% if page.tags.size > 0 %}
+            <div class="level-right">
+              <div class="tags">
+                {% include parsetags.html tags=page.tags %}
+              </div>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths-desktop is-two-thirds-widescreen">
+          <div itemprop="articleBody" class="content is-medium">{{ content }}</div>
+        </div>
+      </div>
     </div>
-  </header>
-
-  <div class="post-content">
-    {% if page.image %}
-    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-      {% if jekyll.environment == "production" %}
-      <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
-           itemprop="url">
-      {% else %}
-      <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
-           itemprop="url">
-      {% endif %}
-      <meta itemprop="width" content="740">
-      <meta itemprop="height" content="300">
-    </div>
-    {% endif %}
-    <div itemprop="articleBody" class="article-body">{{ content }}</div>
-  </div>
-
-  <div class="meta">
-    <p class="post-meta">
-      Posted on:
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: "%b %-d, %Y" }}
-      </time>
-      by
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">Kaustav Das Modak</span>
-        <link href="{{ '/about-me/' | absolute_url }}" itemprop="url">
-      </span>
-    </p>
-    {% if page.tags.size > 0 %}
-    <p class="post-meta tags">
-      {% include parsetags.html tags=page.tags %}
-    </p>
-    {% endif %}
-  </div>
-
-
+  </section>
 
 </article>

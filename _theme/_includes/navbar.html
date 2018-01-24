@@ -1,0 +1,35 @@
+<nav class="navbar is-transparent is-dark" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      {% if page.url != '/' %}
+      <a class="navbar-item" href="/">Kaustav's blog</a>
+      {% endif %}
+      <button id="navbar-toggle" class="button navbar-burger is-dark">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div id="navbar-menu" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/about-me/">About</a>
+        <a class="navbar-item" href="https://github.com/kaustavdm">Github</a>
+        <a class="navbar-item" href="https://in.linkedin.com/in/kaustavdm/">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function () {
+    var t = document.getElementById('navbar-toggle')
+    var m = document.getElementById('navbar-menu')
+
+    t.addEventListener('click', function (e) {
+      e.preventDefault()
+      t.classList.toggle('is-active')
+      m.classList.toggle('is-active')
+    })
+  })
+</script>

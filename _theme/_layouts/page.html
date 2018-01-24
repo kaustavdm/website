@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-<article class="post">
+<article>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | xml_escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths-desktop is-two-thirds-widescreen">
+          <h1 class="title has-text-centered">{{ page.title | xml_escape }}</h1>
+          <div class="content is-medium">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </article>
