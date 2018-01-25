@@ -1,0 +1,10 @@
+<section class="hero is-dark">
+  <div class="hero-head">
+    {% include navbar.html %}
+  </div>
+  {% if page.url == '/' %}
+  <div class="hero-body">
+    {% include about-blurb.html %}
+  </div>
+  {% endif %}
+</section>

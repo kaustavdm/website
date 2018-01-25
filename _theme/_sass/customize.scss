@@ -21,7 +21,7 @@ $size-5: 1.125rem;
 $size-medium: $size-5;
 
 // image
-$dimensions: 16 24 32 48 64 96 128 200 256 !default;
+$dimensions: 16 24 32 48 64 96 128 160 200 256 !default;
 
 // Extra CSS
 .has-margin-centered {
@@ -35,6 +35,14 @@ $dimensions: 16 24 32 48 64 96 128 200 256 !default;
 
 .has-margin-bottom-large {
     margin-bottom: 2rem;
+}
+
+.is-centered-mobile {
+    &.buttons {
+        @media screen and (max-width: $tablet - 1px) {
+            justify-content: center;
+        }
+    }
 }
 
 .content {
