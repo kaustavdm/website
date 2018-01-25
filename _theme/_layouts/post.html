@@ -14,15 +14,13 @@ layout: default
           <p class="subtitle has-text-grey" itemprop="description">{{ page.description | xml_escape }}</p>
           {% endif %}
           {% if page.image %}
-          <div class="card">
-            <div class="card-image">
-              <figure class="image has-margin-bottom" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-                <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
-                    itemprop="url">
-                <meta itemprop="width" content="740">
-                <meta itemprop="height" content="300">
-              </figure>
-            </div>
+          <div class="box has-margin-bottom">
+            <figure class="image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+              <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="cover"
+                  itemprop="url">
+              <meta itemprop="width" content="740">
+              <meta itemprop="height" content="300">
+            </figure>
           </div>
           {% endif %}
           <div class="level">
