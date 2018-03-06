@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Kaustav Das Modak - Technologist and Developer Relations consultant
+title: Kaustav Das Modak
 site_name: Kaustav Das Modak
 email: kaustav.dasmodak@gmail.com
-description: "Blog and website of Kaustav Das Modak - A technology professional bridging engineering with devrel and sales."
+description: "Personal website and blog of Kaustav Das Modak."
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en_GB"
 url: "https://kaustavdm.in" # the base hostname & protocol for your site
@@ -87,6 +87,7 @@ defaults:
       type: posts
     values:
       layout: post
+      is_post: true
   -
     scope:
       path: ""
