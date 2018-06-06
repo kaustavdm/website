@@ -1,54 +1,76 @@
 ---
-layout: default
+layout: page
+redirect_from:
+  - "/about-me/"
+  - "/contact/"
 ---
+
+<div itemscope itemtype="https://schema.org/Person" class="columns is-gapless">
+
+  <div class="column">
+    <figure class="image">
+      <a href="/assets/images/kaustav-das-modak-collage.jpg">
+        <img itemprop="image" src="/assets/images/kaustav-das-modak-collage.jpg"
+        alt="Kaustav Das Modak">
+       </a>
+    </figure>
+  </div>
+
+  <div class="column">
+    <h1 itemprop="name" class="title">Kaustav Das Modak</h1>
+    <p class="subtitle is-4">
+      Technologist. Thinker. Doer. Almost author. Non-binary.
+    </p>
+    <p itemprop="description">
+      I work in the intersections of tech and non-tech. I code, I help others understand technology, I write and more or less pick up any skill that my mind wanders into.
+    </p>
+    <p class="buttons">
+      <a class="button is-link is-outlined is-medium" href="https://medium.com/@kaustavdm/a-brief-abstract-autobiography-b68e3cb8bd7e">Know more</a>
+      <a class="button is-dark is-medium" href="/blog/">Read Blog</a>
+      <a class="button is-primary is-medium" href="https://medium.com/minds-i"><em>"Mind's I"</em></a>
+    </p>
+  </div>
+</div>
+
 <section class="section">
-    <div class="container">
-
-      <div class="columns is-centered">
-        <div class="column is-four-fifths-desktop is-three-fifths-widescreen">
-          {% if paginator.page > 1 %}
-              <h1 class="title">Blog <small>Page {{ paginator.page }}</small></h1>
-          {% else %}
-              <h1 class="title">Blog</h1>
-          {% endif %}
-
-          {% for post in paginator.posts %}
-          <div class="box">
-            <h2 class="title is-4 is-spaced">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
-            </h2>
-            {% if post.description %}
-            <p class="subtitle is-6">{{ post.description | xml_escape }}</p>
-            {% endif %}
-            <div class="level">
-              <div class="level-left">
-                  <span class="post-meta is-size-6 has-text-grey">{{ post.date | date: "%b %d, %Y" }}</span>
-              </div>
-              {% if post.tags.size > 0 %}
-              <div class="level-right">
-                <div class="tags is-size-6">
-                  {% include parsetags.html tags=post.tags %}
-                </div>
-              </div>
-              {% endif %}
-            </div>
-          </div>
-          {% endfor %}
-
-          <nav class="pagination" role="navigation" aria-label="pagination">
-            {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="pagination-previous" title="Newer posts">Newer</a>
-            {% else %}
-            <span class="pagination-previous" disabled>Newer</span>
-            {% endif %}
-
-            {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="pagination-next" title="Older posts">Older</a>
-            {% else %}
-            <span class="pagination-next" disabled>Older</span>
-            {% endif %}
-          </nav>
-        </div> <!-- /.column -->
-    </div> <!-- /.columns -->
-  </div> <!-- /.container -->
-</section> <!-- /.section -->
+  <nav class="level">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Location</p>
+        <p class="is-size-5">Kolkata, IN</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Follow on</p>
+        <div class="buttons has-addons has-addons-centered">
+            <a class="button is-large" href="https://medium.com/@kaustavdm" itemprop="sameAs">
+              <span class="icon is-large">
+                <i class="fab fa-medium"></i>
+              </span>
+            </a>
+          <a class="button is-large" href="https://github.com/kaustavdm" itemprop="sameAs">
+            <span class="icon is-large">
+              <i class="fab fa-github"></i>
+            </span>
+          </a>
+          <a class="button is-large" href="http://twitter.com/kaustavdm" itemprop="sameAs">
+            <span class="icon is-large">
+                <i class="fab fa-twitter"></i>
+              </span>
+          </a>
+          <a class="button is-large" href="http://in.linkedin.com/in/kaustavdm/" itemprop="sameAs">
+            <span class="icon is-large">
+              <i class="fab fa-linkedin"></i>
+            </span>
+          </a>
+          <a class="button is-large" href="https://facebook.com/kaustavdm" itemprop="sameAs">
+            <span class="icon is-large">
+              <i class="fab fa-facebook"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>

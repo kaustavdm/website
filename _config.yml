@@ -33,6 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Site settings
 markdown: kramdown
@@ -47,7 +48,7 @@ permalink: :slug.html
 
 # Paginate
 paginate: 5
-paginate_path: "/page-:num/"
+paginate_path: "/blog/page-:num/"
 
 # Exclude
 exclude: [scripts/, README.md, Gemfile, Gemfile.lock, vendor]

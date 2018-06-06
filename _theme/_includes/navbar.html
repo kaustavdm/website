@@ -1,10 +1,15 @@
-<nav class="navbar is-transparent is-dark" role="navigation" aria-label="main navigation">
+<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       {% if page.url != '/' %}
-      <a class="navbar-item" href="/">Kaustav's blog</a>
+      <a class="navbar-item" href="/" title="Homepage">
+        <span class="icon is-large">
+          <i class="fas fa-2x fa-user-circle" aria-hidden="true"></i>
+        </span>
+        <span class="is-hidden">Home</span>
+      </a>
       {% endif %}
-      <button id="navbar-toggle" class="button navbar-burger is-dark">
+      <button id="navbar-toggle" class="button navbar-burger">
         <span></span>
         <span></span>
         <span></span>
@@ -13,10 +18,31 @@
 
     <div id="navbar-menu" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="/about-me/">About</a>
-        <a class="navbar-item" href="https://github.com/kaustavdm">Github</a>
-        <a class="navbar-item" href="https://in.linkedin.com/in/kaustavdm/">LinkedIn</a>
-        <a class="navbar-item" href="/presentations/">Presentations</a>
+        <a class="navbar-item" href="/blog/"
+          title="Writings on this site">
+          <span class="icon is-large">
+            <i class="fas fa-2x fa-pen-square" aria-hidden="true"></i>
+          </span>
+          <span class="is-hidden">Blog</span>
+        </a>
+        <a class="navbar-item" href="https://medium.com/@kaustavdm"
+          title="Writings on Medium">
+          <span class="icon is-large">
+            <i class="fab fa-2x fa-medium"></i>
+          </span>
+        </a>
+        <a class="navbar-item" href="https://github.com/kaustavdm"
+          title="Code on Github">
+          <span class="icon is-large">
+            <i class="fab fa-2x fa-github"></i>
+          </span>
+        </a>
+        <a class="navbar-item" href="https://in.linkedin.com/in/kaustavdm/"
+          title="LinkedIn profile">
+          <span class="icon is-large">
+            <i class="fab fa-2x fa-linkedin"></i>
+          </span>
+        </a>
       </div>
     </div>
   </div>
