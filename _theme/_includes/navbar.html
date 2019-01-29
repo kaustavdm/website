@@ -1,14 +1,12 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      {% if page.url != '/' %}
       <a class="navbar-item" href="/" title="Homepage">
         <span class="icon is-large">
           <i class="fas fa-2x fa-user-circle" aria-hidden="true"></i>
         </span>
-        <span class="is-hidden">Home</span>
+        <span><code>../</code></span>
       </a>
-      {% endif %}
       <button id="navbar-toggle" class="button navbar-burger">
         <span></span>
         <span></span>
@@ -18,36 +16,26 @@
 
     <div id="navbar-menu" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="/blog/"
+        <a class="navbar-item is-large" href="/blog/"
           title="Writings on this site">
           <span class="icon is-large">
             <i class="fas fa-2x fa-pen-square" aria-hidden="true"></i>
           </span>
-          <span class="is-hidden">Blog</span>
+          <span>Blog</span>
         </a>
-        <a class="navbar-item" href="https://medium.com/@kaustavdm"
+        <a class="navbar-item is-large" href="https://medium.com/@kaustavdm"
           title="Writings on Medium">
           <span class="icon is-large">
             <i class="fab fa-2x fa-medium"></i>
           </span>
+          <span>Medium</span>
         </a>
-        <a class="navbar-item" href="https://instagram.com/kaustavdm"
-          title="Photos on Instagram">
-          <span class="icon is-large">
-            <i class="fab fa-2x fa-instagram"></i>
-          </span>
-        </a>
-        <a class="navbar-item" href="https://github.com/kaustavdm"
-          title="Code on Github">
-          <span class="icon is-large">
-            <i class="fab fa-2x fa-github"></i>
-          </span>
-        </a>
-        <a class="navbar-item" href="https://in.linkedin.com/in/kaustavdm/"
+        <a class="navbar-item is-large" href="https://in.linkedin.com/in/kaustavdm/"
           title="LinkedIn profile">
           <span class="icon is-large">
             <i class="fab fa-2x fa-linkedin"></i>
           </span>
+          <span>LinkedIn</span>
         </a>
       </div>
     </div>
