@@ -9,6 +9,10 @@ nav_title: Presentations
 
 Curated list of my public presentations. Grouped thematically. Sorted by date (recent first) within each category.
 
+## Postman
+
+- [APIOps with Postman](https://kaustavdm.github.io/apiops-with-postman/) - APIDays Singapore 2019
+
 ## Rust
 
 - [Rustup, cargo and cross-compiling in Rust](https://speakerdeck.com/kaustavdm/rustup-cargo-and-cross-compiling-in-rust) - Rust meetup Bangalore, July 2016.
