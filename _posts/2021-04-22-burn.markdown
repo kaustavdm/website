@@ -3,6 +3,7 @@ layout: post
 slug: burn
 title: Burn
 description: A lyrical scream to rap on the state we are in today.
+image: /assets/images/covers/burn.jpg
 tags:
 - poetry
 - politics
@@ -67,3 +68,9 @@ They burn as<br />
 &nbsp;&nbsp;Liars, they run, they run,<br />
 They run this show.
 </p>
+
+---
+
+<p><small>
+Photo by <a href="https://unsplash.com/@lukeporter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luke Porter</a> on <a href="https://unsplash.com/s/photos/burn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</small></p>
