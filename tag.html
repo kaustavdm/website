@@ -1,0 +1,33 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - blog
+    - draft
+  addAllPagesToCollections: true
+layout: page
+eleventyComputed:
+  title: "Tagged with {{ tag }}"
+permalink: /tags/{{ tag | slug }}/
+---
+
+<h1>Tagged "{{ tag }}"</h1>
+
+<section>
+  {% for post in collections[tag] %}
+    <h2>
+      <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
+    </h2>
+    {% if post.data.description %}
+    <p>{{ post.data.description | escape }}</p>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+</section>
+
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

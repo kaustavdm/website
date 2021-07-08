@@ -1,0 +1,11 @@
+<nav class="pagination" aria-label="pagination">
+  {% if page.url != pagination.href.first %}
+  <a href="{{ pagination.href.first | url }}">Newest</a>
+  {% endif %} {% if pagination.href.previous %}
+  <a href="{{ pagination.href.previous | url }}">Newer</a>
+  {% endif %} {% if pagination.href.next %}
+  <a href="{{ pagination.href.next | url }}">Older</a>
+  {% endif %} {% if page.url != pagination.href.last %}
+  <a href="{{ pagination.href.last | url }}">Oldest</a>
+  {% endif %}
+</nav>
