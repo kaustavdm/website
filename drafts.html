@@ -1,0 +1,27 @@
+---
+layout: page
+title: Drafts
+pagination:
+  data: collections.drafts
+  size: 10
+  alias: posts
+  reverse: true
+---
+
+<h1>{{ title }}</h1>
+
+<section>
+  {% for post in posts %}
+    <h2>
+      <a href="{{ post.url | url }}">[Draft] {{ post.data.title | escape }}</a>
+    </h2>
+    {% if post.data.description %}
+    <p>{{ post.data.description | escape }}</p>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+
+  {% include pagination.html %}
+</section>
+<!-- /.section -->

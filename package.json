@@ -1,0 +1,28 @@
+{
+  "name": "kaustavdm.in",
+  "version": "2.0.0",
+  "description": "Kaustav's website and blog's source code. Go to https://kaustavdm.in for the content.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustavdm/kaustavdm.in.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Kaustav Das Modak",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/kaustavdm/kaustavdm.in/issues"
+  },
+  "homepage": "https://kaustavdm.in",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "markdown-it-footnote": "^3.0.3"
+  }
+}

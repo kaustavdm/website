@@ -1,0 +1,70 @@
+---
+layout: base
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <section>
+    <header>
+      <h1 itemprop="name headline">
+        {{ title | escape }}
+      </h1>
+
+      {% if description %}
+      <p itemprop="description">
+        {{ description | escape }}
+      </p>
+      {% endif %}
+
+      {% if image %}
+      <div>
+        <figure
+          itemprop="image"
+          itemscope
+          itemtype="https://schema.org/ImageObject"
+        >
+          <img
+            src="{{ image | url }}"
+            alt="{{ title }}"
+            itemprop="url"
+          />
+          <meta itemprop="width" content="740" />
+          <meta itemprop="height" content="300" />
+        </figure>
+      </div>
+      {% endif %}
+
+      <p class="post-meta has-text-grey-light">
+        Posted on:
+        <time
+          datetime="{{ page.date | date_to_xmlschema }}"
+          itemprop="datePublished"
+        >
+          {{ page.date | date: "%b %d, %Y" }}
+        </time>
+          by
+          <span
+            itemprop="author"
+            itemscope
+            itemtype="http://schema.org/Person"
+          >
+            <span itemprop="name">{{ author.name }}</span>
+            <link
+              href="{{ author.url }}"
+              itemprop="url"
+            />
+          </span>
+      </p>
+      {% if tags %}
+        <p>Tags:
+          {% for t in tags %}
+            <a href="/tags/{{ t | slug | url }}">{{ t }}</a>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </header>
+
+    <div itemprop="articleBody">
+      {{ content | safe }}
+    </div>
+  </section>
+</article>

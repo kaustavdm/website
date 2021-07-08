@@ -1,0 +1,28 @@
+---
+layout: page
+title: Blog
+pagination:
+  data: collections.blog
+  size: 5
+  alias: posts
+  reverse: true
+---
+
+<h1>{{ title }}</h1>
+
+<section>
+  {% for post in posts %}
+    <h2>
+      <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
+    </h2>
+    {% if post.data.description %}
+    <p>{{ post.data.description | escape }}</p>
+    {% endif %}
+    <span>{{ post.date }}</span>
+
+  </div>
+  {% endfor %}
+
+  {% include pagination.html %}
+</section>
+<!-- /.section -->
