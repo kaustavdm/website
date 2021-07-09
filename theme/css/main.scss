@@ -1,5 +1,281 @@
----
----
 @charset "utf-8";
 
-@import "base";
+@use 'sass:math';
+@use 'normalize.css';
+
+@import "./variables";
+@import "./mixins";
+@import "./fonts";
+@import "./color-schemes";
+@import "./top-bar";
+
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  overflow-x: hidden;
+  font-variant-ligatures: normal;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  image-rendering: optimizeQuality;
+}
+
+figure {
+  &.cover-image {
+    margin: 2rem auto;
+  }
+
+  &.medium img {
+    max-height: 400px;
+  }
+
+  &.large img {
+    max-height: 768px;
+  }
+
+  &.cover img {
+    max-height: 100vh;
+  }
+}
+
+.buttons {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+
+  &.vertical {
+    flex-direction: column;
+  }
+
+  .column {
+    margin: 0.25rem;
+    padding: 0.25rem;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    &.grow {
+      flex-grow: 1;
+    }
+  }
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+
+  &:first-of-type {
+    padding-top: 4rem;
+  }
+
+  .content {
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+    position: relative;
+
+    ul,
+    ol,
+    dl {
+      font-size: $small-font-size;
+      line-height: $small-line-height;
+    }
+
+    pre {
+      display: block;
+      overflow-x: scroll;
+      overflow-y: scroll;
+      max-height: 80vh;
+      max-width: 100%;
+      padding: 0.5rem;
+      margin: 0;
+      border-radius: 0.25rem;
+      background-color: lighten($dark-body-bg, 5%);
+      line-height: 1;
+    }
+
+    hr {
+      margin: 4rem;
+    }
+
+    code {
+      margin: 0;
+      line-height: 1;
+      font-size: $small-font-size * 0.8;
+
+      p & {
+        padding-left: 4px;
+        padding-right: 4px;
+        background-color: lighten($dark-body-bg, 5%);
+      }
+    }
+
+    & > p,
+    & > div,
+    & pre,
+    & ul,
+    & ol,
+    & dl {
+      margin-bottom: $small-line-height;
+    }
+
+    h2 {
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+      line-height: 1.25;
+
+      + p,
+      + div {
+        margin-top: 0.5rem;
+      }
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+
+      + p,
+      + div {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .title {
+    font-size: $small-font-size * 1.5;
+    line-height: $small-line-height * 1.25;
+    font-weight: 700;
+    margin: $small-line-height * 2 auto $small-line-height auto;
+  }
+
+  .subtitle {
+    font-size: $font-size * 1.5;
+    font-weight: 400;
+    margin: 1rem auto 0;
+  }
+
+  .small,
+  small {
+    font-size: $font-size;
+    line-height: $font-size * 1.25;
+  }
+
+  .meta {
+    margin: 1.5rem 0;
+    padding: 1rem 0;
+
+    p {
+      margin-top: math.div($small-line-height, 2);
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .card {
+    padding: 1rem;
+
+    .title {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      padding-top: 0;
+      font-size: $small-font-size * 1.25;
+    }
+
+    .subtitle {
+      font-size: $small-font-size;
+      line-height: 1.25;
+    }
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a.button {
+    padding: 1rem 2rem;
+    background-color: $light-body-bg;
+    color: $light-text-color;
+    transition: background-color 0.5s ease-out, color 0.25s ease-in;
+
+    &.primary {
+      background-color: $light-link-color;
+      color: $light-text-color;
+    }
+
+    &:hover {
+      color: $light-text-color;
+      background-color: darken($light-body-bg, 10%);
+    }
+  }
+
+  .footnotes {
+    ol,
+    ul {
+      li {
+        font-size: $small-font-size;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .row {
+    flex-direction: row;
+  }
+
+  .container {
+    width: 72vw;
+    max-width: 960px;
+
+    .content {
+      font-size: $large-font-size;
+      line-height: $large-line-height;
+
+      ul,
+      ol,
+      dl {
+        font-size: $large-font-size;
+        line-height: $large-line-height;
+      }
+
+      & > p,
+      & > div,
+      & pre,
+      & ul,
+      & ol,
+      & dl {
+        margin-bottom: $large-line-height;
+      }
+    }
+
+    .title {
+      font-size: $large-font-size * 1.5;
+    }
+
+    .subtitle {
+      font-size: $large-font-size;
+    }
+
+    .card {
+      .title {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding-top: 0;
+      }
+    }
+  }
+}

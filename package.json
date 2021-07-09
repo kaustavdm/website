@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy --serve",
+    "build-css": "sass --style compressed "
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   "homepage": "https://kaustavdm.in",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@csstools/normalize.css": "^11.0.1",
     "markdown-it-footnote": "^3.0.3",
     "sass": "^1.35.2"
   }

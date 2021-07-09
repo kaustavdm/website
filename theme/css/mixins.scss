@@ -1,0 +1,69 @@
+@mixin dark-scheme {
+  color: $dark-text-color;
+  background: $dark-body-bg;
+  transition: background-color 1s ease-out, color 1s ease-in;
+
+  a {
+    text-decoration: underline;
+    color: $dark-text-color;
+    transition: color 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+    &:hover {
+      color: lighten($dark-text-color, 20%);
+      text-decoration: underline;
+    }
+  }
+
+  .content {
+    a {
+      color: $dark-link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: lighten($dark-link-color, 50%);
+      }
+    }
+
+    .subtitle, .meta {
+      color: darken($dark-text-color, 50%);
+    }
+  }
+
+  .card {
+    box-shadow: 0rem 0.25rem 0.5rem #000000;
+  }
+
+}
+
+@mixin light-scheme {
+  color: $light-text-color;
+  background: $light-body-bg;
+
+  a {
+    text-decoration: none;
+    color: $light-link-color;
+
+    &:hover {
+      color: darken($light-link-color, 50%);
+    }
+  }
+
+  .content {
+    a {
+      color: $light-link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: darken($light-link-color, 15%);
+      }
+    }
+
+    .subtitle, .meta {
+      color: lighten($light-text-color, 25%);
+    }
+  }
+
+  .card {
+    box-shadow: 0rem 0.25rem 0.5rem lighten($light-text-color, 70%);
+  }
+}

@@ -1,24 +1,25 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+pagination:
+  data: collections.blog
+  size: 10
+  reverse: true
+  alias: posts
+permalink: blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}index.html
+eleventyComputed:
+  title: Blog{% if pagination.pageNumber > 0 %} — page-{{ pagination.pageNumber }}{% endif %}
 ---
 
-<h1>{{ title }}</h1>
-
-<section>
-  {% for post in collections.blog reversed %}
-    <h2>
+{% for post in posts %}
+  <div class="card">
+    <h2 class="title">
       <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
     </h2>
     {% if post.data.description %}
-    <p>{{ post.data.description | escape }}</p>
+    <p class="subtitle">{{ post.data.description | escape }}</p>
     {% endif %}
-    <span>{{ post.date }}</span>
-
+    <p class="meta small">{{ post.date }}</p class="meta small">
   </div>
-  {% endfor %}
+{% endfor %}
 
-  {% include pagination.html %}
-</section>
-<!-- /.section -->
+{% include pagination.html %}

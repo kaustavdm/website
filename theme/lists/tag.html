@@ -11,23 +11,19 @@ pagination:
   addAllPagesToCollections: true
 layout: page
 eleventyComputed:
-  title: "Tagged with {{ tag }}"
+  title: "Tagged with \"{{ tag }}\""
 permalink: /tags/{{ tag | slug }}/
 ---
 
-<h1>Tagged "{{ tag }}"</h1>
-
-<section>
-  {% for post in collections[tag] %}
-    <h2>
-      <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
-    </h2>
-    {% if post.data.description %}
-    <p>{{ post.data.description | escape }}</p>
-    {% endif %}
-
-  </div>
-  {% endfor %}
-</section>
+{% for post in collections[tag] %}
+<div class="card">
+  <h2 class="title">
+    <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
+  </h2>
+  {% if post.data.description %}
+  <p class="subtitle">{{ post.data.description | escape }}</p>
+  {% endif %}
+</div>
+{% endfor %}
 
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

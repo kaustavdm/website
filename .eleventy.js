@@ -1,39 +1,33 @@
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
+const filters = require("./theme/filters");
+const transforms = require("./theme/transforms");
 
 module.exports = function (config) {
   // Enable data deep merge
   config.setDataDeepMerge(true);
 
+  // Add SCSS files to watch target
+  config.addWatchTarget("./theme/css/*.scss");
+
   // Customize markdown parsing
-  config.setLibrary("md", markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true,
-    typographer: true
-  }).use(markdownItFootnote));
+  config.setLibrary(
+    "md",
+    markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true,
+      typographer: true,
+    }).use(markdownItFootnote)
+  );
 
   // Passthrough copy assets
   config.addPassthroughCopy("assets/");
 
-  // Set collection for blog posts
-  // config.addCollection("blog", function (collection) {
-  //   return collection.getFilteredByGlob("blog/*.md");
-  // });
-
-  // Set collection for blog drafts
-  config.addCollection("drafts", function (collection) {
-    return collection.getFilteredByGlob("drafts/*.md");
-  });
-
-  function filterTagList(tags) {
-    return (tags || []).filter(
-      (tag) => ["all", "nav", "blog", "drafts"].indexOf(tag) === -1
-    );
+  // Register all filters
+  for (const [k, v] of Object.entries(filters)) {
+    config.addFilter(k, v);
   }
-
-  // Add filterTagList as a filter
-  config.addFilter("filterTagList", filterTagList);
 
   // Set collection for tags
   config.addCollection("tagList", function (collection) {
@@ -41,15 +35,20 @@ module.exports = function (config) {
     collection.getAll().forEach((item) => {
       (item.data.tags || []).forEach((tag) => tagSet.add(tag));
     });
-    return filterTagList(Array.from(tagSet).sort());
+    return filters.filterTags(Array.from(tagSet).sort());
   });
+
+  // Register all transforms
+  for (const [k, v] of Object.entries(transforms)) {
+    config.addTransform(k, v);
+  }
 
   return {
     dir: {
       input: ".",
       output: "_site",
       includes: "theme/includes",
-      data: "theme/data"
+      data: "theme/data",
     },
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",

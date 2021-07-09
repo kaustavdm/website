@@ -2,15 +2,15 @@
 layout: base
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="container">
   <section>
     <header>
-      <h1 itemprop="name headline">
-        {{ title | escape }}
+      <h1 itemprop="name headline" class="title">
+        <a href="{{ url }}">{{ title | escape }}</a>
       </h1>
 
       {% if description %}
-      <p itemprop="description">
+      <p itemprop="description" class="subtitle">
         {{ description | escape }}
       </p>
       {% endif %}
@@ -21,11 +21,13 @@ layout: base
           itemprop="image"
           itemscope
           itemtype="https://schema.org/ImageObject"
+          class="cover-image"
         >
           <img
             src="{{ image | url }}"
             alt="{{ title }}"
             itemprop="url"
+            class="card"
           />
           <meta itemprop="width" content="740" />
           <meta itemprop="height" content="300" />
@@ -33,38 +35,40 @@ layout: base
       </div>
       {% endif %}
 
-      <p class="post-meta has-text-grey-light">
-        Posted on:
-        <time
-          datetime="{{ page.date | date_to_xmlschema }}"
-          itemprop="datePublished"
-        >
-          {{ page.date | date: "%b %d, %Y" }}
-        </time>
-          by
-          <span
-            itemprop="author"
-            itemscope
-            itemtype="http://schema.org/Person"
+      <div class="meta">
+        <p class="small">
+          Posted on:
+          <time
+            datetime="{{ page.date | date_to_xmlschema }}"
+            itemprop="datePublished"
           >
-            <span itemprop="name">{{ author.name }}</span>
-            <link
-              href="{{ author.url }}"
-              itemprop="url"
-            />
-          </span>
-      </p>
-      {% assign tagList = {{ tags | filterTagList }} %}
-      {% if tagList %}
-        <p>Tags:
-          {% for t in tagList %}
-            <a href="/tags/{{ t | slug | url }}">{{ t }}</a>
-          {% endfor %}
+            {{ page.date | date: "%b %d, %Y" }}
+          </time>
+            by
+            <span
+              itemprop="author"
+              itemscope
+              itemtype="http://schema.org/Person"
+            >
+              <span itemprop="name">{{ author.name }}</span>
+              <link
+                href="{{ author.url }}"
+                itemprop="url"
+              />
+            </span>
         </p>
-      {% endif %}
+        {% assign tagList = {{ tags | filterTags }} %}
+        {% if tagList %}
+          <p class="small">Tags:
+            {% for t in tagList %}
+              <a href="/tags/{{ t | slug | url }}">{{ t }}</a>
+            {% endfor %}
+          </p>
+        {% endif %}
+      </div>
     </header>
 
-    <div itemprop="articleBody">
+    <div itemprop="articleBody" class="content">
       {{ content | safe }}
     </div>
   </section>

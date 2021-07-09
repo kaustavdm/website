@@ -1,0 +1,26 @@
+::root {
+  color-scheme: dark light;
+}
+
+body {
+  // Default to dark scheme
+  @include dark-scheme;
+
+  &.#{$light-class} {
+    @include light-scheme;
+  }
+}
+
+// Dark colour scheme override
+@media (prefers-color-scheme: dark) {
+  body {
+    @include dark-scheme;
+  }
+}
+
+// Light colour scheme override
+@media (prefers-color-scheme: light) {
+  body {
+    @include light-scheme;
+  }
+}
