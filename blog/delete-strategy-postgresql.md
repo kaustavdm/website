@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2018-01-19
 slug: delete-strategy-postgresql
 title: Choosing delete strategy in PostgreSQL

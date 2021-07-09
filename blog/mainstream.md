@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-15
-layout: post
 slug: mainstream
 title: Mainstream
 post_format:

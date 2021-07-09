@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2018-01-14
 slug: communication-divide-continuum
 title: Communication divide continuum

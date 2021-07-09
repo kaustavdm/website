@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-04-10
-layout: post
 slug: initiating-evangelism-task-force-mozilla-india
 title: Initiating Evangelism Task Force in Mozilla India
 tags:

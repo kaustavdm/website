@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-08-15
-layout: post
 slug: risk-live
 title: Risk is what I live for
 tags:

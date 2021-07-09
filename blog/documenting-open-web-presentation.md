@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-03-29
-layout: post
 slug: documenting-open-web-presentation
 title: Documenting the Open Web [Presentation]
 tags:

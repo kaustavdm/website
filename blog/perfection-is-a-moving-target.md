@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-01-23
 slug: perfection-is-moving-target
 title: Perfection is a moving target

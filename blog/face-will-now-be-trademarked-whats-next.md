@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2010-11-25
-layout: post
 slug: face-will-now-be-trademarked-whats-next
 title: '"Face" will now be trademarked! What''s next?'
 ---

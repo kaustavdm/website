@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-02-21
 slug: zen-of-open-source
 title: The Zen of Open Source

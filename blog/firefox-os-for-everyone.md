@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-27
-layout: post
 slug: firefox-os-for-everyone
 title: Firefox OS for everyone
 tags:

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-12-02
-layout: post
 slug: birth-of-a-developer-evangelist
 title: Birth of a Developer Evangelist
 tags:

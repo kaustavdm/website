@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-05-19
-layout: post
 slug: next-steps-evangelism-task-force-mozilla-india
 title: Next steps for the Evangelism Task Force in Mozilla India
 tags:

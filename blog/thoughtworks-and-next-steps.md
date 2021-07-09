@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-11-03
-layout: post
 slug: thoughtworks-and-next-steps
 title: Re-starting. ThoughtWorks and next steps
 tags:

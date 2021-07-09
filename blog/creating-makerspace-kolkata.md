@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-10-01
-layout: post
 slug: creating-makerspace-kolkata
 title: Creating a Makerspace in Kolkata
 tags:

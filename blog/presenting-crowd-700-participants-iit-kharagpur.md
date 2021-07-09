@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-01-31
-layout: post
 slug: presenting-crowd-700-participants-iit-kharagpur
 title: Presenting to a crowd of 700+ participants at IIT Kharagpur
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 slug: burn
 date: 2021-04-22
 title: Burn

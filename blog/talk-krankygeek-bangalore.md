@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-02-24
 slug: talk-krankygeek-bangalore
 title: "Talk: Kranky Geek WebRTC event in Bangalore"

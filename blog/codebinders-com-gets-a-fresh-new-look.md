@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-02-12
-layout: post
 slug: codebinders-com-gets-a-fresh-new-look
 title: CodeBinders.com gets a fresh new look
 tags:

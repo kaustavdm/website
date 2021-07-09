@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-05-19
-layout: post
 slug: rootconf-2014
 title: 'RootConf 2014: How it was and what it can be'
 tags:

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-06-18
-layout: post
 slug: terribly-tiny-tale-2
 title: 'Terribly Tiny Tale #2'
 post_format:

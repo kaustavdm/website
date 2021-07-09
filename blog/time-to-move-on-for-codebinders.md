@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-11-22
-layout: post
 slug: time-to-move-on-for-codebinders
 title: It is time to move on for CodeBinders
 tags:

@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-06-06
 slug: why-decentralize-technology
 title: "Why decentralize technology?"

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2011-05-25
-layout: post
 slug: install-avro-phonetic-scim-avro-in-ubuntu-from-ppa
 title: Install Avro Phonetic (scim-avro) in Ubuntu from PPA
 categories:

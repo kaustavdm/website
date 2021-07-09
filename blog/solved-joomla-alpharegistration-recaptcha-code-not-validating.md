@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2009-12-07
-layout: post
 slug: solved-joomla-alpharegistration-recaptcha-code-not-validating
 title: '[SOLVED] Joomla AlphaRegistration ReCaptcha code not validating'
 categories:

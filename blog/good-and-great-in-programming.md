@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-15
-layout: post
 slug: good-and-great-in-programming
 title: Good and great - in programming
 post_format:

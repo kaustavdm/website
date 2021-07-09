@@ -1,6 +1,5 @@
 ---
 date: 2009-10-05
-layout: post
 slug: horizontal-footer-menu-in-joomla-1-5-14
 title: Horizontal Footer Menu in Joomla 1.5.14
 tags:

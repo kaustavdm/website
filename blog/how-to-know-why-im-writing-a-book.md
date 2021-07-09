@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-07-08
-layout: post
 slug: how-to-know-why-im-writing-a-book
 title: How to know Why? - I'm writing a book
 tags:

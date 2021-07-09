@@ -2,6 +2,9 @@ const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = function (config) {
+  // Enable data deep merge
+  config.setDataDeepMerge(true);
+
   // Customize markdown parsing
   config.setLibrary("md", markdownIt({
     html: true,
@@ -11,12 +14,12 @@ module.exports = function (config) {
   }).use(markdownItFootnote));
 
   // Passthrough copy assets
-  config.addPassthroughCopy("assets");
+  config.addPassthroughCopy("assets/");
 
   // Set collection for blog posts
-  config.addCollection("blog", function (collection) {
-    return collection.getFilteredByGlob("blog/*.md");
-  });
+  // config.addCollection("blog", function (collection) {
+  //   return collection.getFilteredByGlob("blog/*.md");
+  // });
 
   // Set collection for blog drafts
   config.addCollection("drafts", function (collection) {
@@ -42,8 +45,14 @@ module.exports = function (config) {
   });
 
   return {
+    dir: {
+      input: ".",
+      output: "_site",
+      includes: "theme/includes",
+      data: "theme/data"
+    },
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
-    templateFormats: ["html", "md", "liquid"],
+    templateFormats: ["html", "md", "liquid", "txt"],
   };
 };

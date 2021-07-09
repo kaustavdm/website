@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-05-14
-layout: post
 slug: workaround-see-git-submodule-diff-bitbucket-pull-requests
 title: Workaround to see Git submodule diff in Bitbucket pull requests
 tags:

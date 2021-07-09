@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-12-24
-layout: post
 slug: maker-party-mdn-days-bhubaneswar-december-2013
 title: Maker Party and MDN Days, Bhubaneswar, December 2013
 tags:

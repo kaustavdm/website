@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-09-23
-layout: post
 slug: mdn-evangelism-training-and-jsfoo-2013
 title: MDN Evangelism Training and JSFoo 2013
 tags:

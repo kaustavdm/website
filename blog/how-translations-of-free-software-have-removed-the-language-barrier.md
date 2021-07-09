@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2011-11-21
-layout: post
 slug: how-translations-of-free-software-have-removed-the-language-barrier
 title: How translations of free software have removed the language barrier
 categories:

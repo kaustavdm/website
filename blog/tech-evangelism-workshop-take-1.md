@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-07-12
-layout: post
 slug: tech-evangelism-workshop-take-1
 title: Tech Evangelism Workshop - Take 1
 tags:

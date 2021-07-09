@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-10-02
-layout: post
 slug: mozilla-summit-calling
 title: Mozilla Summit is calling
 tags:

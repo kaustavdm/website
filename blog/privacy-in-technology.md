@@ -1,5 +1,4 @@
 ---
-layout: post
 slug: privacy-in-technology
 date: 2016-06-05
 title: "Privacy in technology"

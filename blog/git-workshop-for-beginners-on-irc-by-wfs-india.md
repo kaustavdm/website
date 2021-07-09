@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-06-10
-layout: post
 slug: git-workshop-for-beginners-on-irc-by-wfs-india
 title: Git workshop for beginners on IRC by WFS-India on June 15, 2013
 tags:

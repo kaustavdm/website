@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-12
-layout: post
 slug: recursive-purpose
 title: Recursive purpose
 ---

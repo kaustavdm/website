@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-03-14
-layout: post
 slug: blast-called-mdn-workweekend
 title: The blast called MDN Workweekend
 tags:
