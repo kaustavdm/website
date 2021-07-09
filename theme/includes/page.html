@@ -2,8 +2,14 @@
 layout: base
 ---
 
-<article>
-  <section>
-    {{ content | safe }}
+<article class="container">
+  <section class="content">
+    <header>
+      <h1 class="title">{{ title }}</h1>
+    </header>
+
+    <div class="content">
+      {{ content | safe }}
+    </div>
   </section>
 </article>

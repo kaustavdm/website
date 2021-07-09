@@ -1,0 +1,21 @@
+// typography
+$font-family: "iawriter", "Noto Sans", -system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,apple color emoji,segoe ui emoji,segoe ui symbol,sans-serif;
+$font-size: 16px;
+$small-font-size: $font-size * 1.25;
+$small-line-height: $small-font-size * 1.5;
+$large-font-size: $font-size * 1.5;
+$large-line-height: $large-font-size * 1.5;
+
+// colour: Dark
+$dark-class: "theme-dark";
+$dark-mediaquery: "(prefers-color-scheme: dark)";
+$dark-body-bg: #222222;
+$dark-text-color: #d7d7d7;
+$dark-link-color: #15beec;
+
+// colour: Light
+$light-class: "theme-light";
+$light-mediaquery: "(prefers-color-scheme: light)";
+$light-body-bg: #d7d7d7;
+$light-text-color: #222222;
+$light-link-color: #009ec9
