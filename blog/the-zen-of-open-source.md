@@ -26,13 +26,13 @@ This post consolidates the thoughts of [Pieter Hintjens][hintjens], [Bruno Rocha
 - Patches should never be ignored silently,
 - Unless they break tests.
 - In the face of ambiguity, refuse the temptation to close an issue.
-- There should be one-- and preferably only one --style guide.
+- There should be one — and preferably only one — style guide.
 - Although that way may not be obvious at first unless you're a bot.
-- Incomplete project is better than none.
+- Incomplete project is better than none;
 - Although never is often better than *yet-another* library that reinvents the wheel.
-- If the code is unreadable or archaic, it's a bad idea.
-- If the code is idiosyncratic but has documentation, it may be a good idea.
-- Tests are one honking great idea -- let's do more of those!
+- If a code is unreadable or archaic, it's a bad idea.
+- If a code is eccentric but has documentation, it may be a good idea.
+- Tests are one honking great idea — let's do more of those!
 
 
 [zen]: https://www.python.org/dev/peps/pep-0020/
