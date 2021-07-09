@@ -4,3 +4,5 @@ Disallow: /categories/
 Disallow: /user/
 Disallow: /author/
 Disallow: /tags/
+Disallow: /drafts/
+Disallow: /theme/
