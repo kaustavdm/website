@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-08-25
-layout: post
 slug: dear-smartphone-user-time-unlearn
 title: Dear smartphone user, it is time to unlearn
 tags:

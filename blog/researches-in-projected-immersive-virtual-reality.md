@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-16
-layout: post
 slug: researches-in-projected-immersive-virtual-reality
 title: Researches in projected immersive virtual reality
 tags:

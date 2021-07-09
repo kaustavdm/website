@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-12-15
-layout: post
 slug: introducing-css-variables-making-css-dynamic
 title: Introducing CSS variables - Making your CSS dynamic
 tags:

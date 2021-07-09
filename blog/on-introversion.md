@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-08-03
-layout: post
 slug: on-introversion
 title: On introversion
 tags:

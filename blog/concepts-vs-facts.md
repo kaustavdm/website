@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-19
-layout: post
 slug: concepts-vs-facts
 title: Concepts vs facts
 tags:

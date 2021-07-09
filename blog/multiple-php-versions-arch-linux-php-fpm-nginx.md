@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-06-20
-layout: post
 slug: multiple-php-versions-arch-linux-php-fpm-nginx
 title: Multiple PHP versions on Arch Linux with php-fpm and Nginx
 tags:

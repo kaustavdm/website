@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2010-11-17
-layout: post
 slug: jadavpur-chronicles
 title: Jadavpur Chronicles
 categories:

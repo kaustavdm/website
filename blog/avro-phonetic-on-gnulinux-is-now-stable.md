@@ -1,6 +1,5 @@
 ---
 date: 2012-07-31
-layout: post
 slug: avro-phonetic-on-gnulinux-is-now-stable
 title: Avro Phonetic on GNU/Linux is now stable
 tags:

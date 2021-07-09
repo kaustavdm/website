@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2011-05-22
-layout: post
 slug: install-font-manager-in-ubuntu-lucid-maverick-natty-and-oneiric
 title: Install Font Manager in Ubuntu Lucid, Maverick, Natty and Oneiric
 categories:

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-12-01
-layout: post
 slug: session-firefox-devtools-fsmk-sunday-school
 title: A session on Firefox DevTools at FSMK Sunday School
 tags:

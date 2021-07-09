@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-03-20
 slug: announcing-muktakosh
 title: Announcing Muktakosh

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-06-22
-layout: post
 slug: involvement-mozcamp-beta-selection-process
 title: About my involvement in MozCamp Beta selection process
 tags:

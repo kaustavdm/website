@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-07-24
-layout: post
 slug: debug-pseudo-classes-in-firefox-devtools
 title: Debug pseudo-classes in Firefox DevTools
 tags:

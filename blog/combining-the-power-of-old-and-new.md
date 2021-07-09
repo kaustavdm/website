@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-14
-layout: post
 slug: combining-the-power-of-old-and-new
 title: Combining the power of old and new
 tags:

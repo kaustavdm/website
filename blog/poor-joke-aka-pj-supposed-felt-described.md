@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-04-11
-layout: post
 slug: poor-joke-aka-pj-supposed-felt-described
 title: '"Poor Joke", aka, PJ is supposed to be felt, not described'
 tags:

@@ -1,6 +1,5 @@
 ---
 date: 2015-03-05
-layout: post
 slug: announcing-grouphone
 title: Announcing Grouphone
 tags:

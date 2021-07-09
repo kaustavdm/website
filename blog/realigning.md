@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-09
-layout: post
 slug: realigning
 title: Realigning
 ---

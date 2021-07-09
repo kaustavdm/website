@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2012-12-08
-layout: post
 slug: codebinders-turns-one
 title: CodeBinders turns one
 tags:

@@ -1,23 +1,20 @@
 ---
 layout: page
-title: Drafts
-pagination:
-  data: collections.drafts
-  size: 10
-  alias: posts
-  reverse: true
+title: Blog
+permalink: /blog/
 ---
 
 <h1>{{ title }}</h1>
 
 <section>
-  {% for post in posts %}
+  {% for post in collections.blog reversed %}
     <h2>
-      <a href="{{ post.url | url }}">[Draft] {{ post.data.title | escape }}</a>
+      <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
     </h2>
     {% if post.data.description %}
     <p>{{ post.data.description | escape }}</p>
     {% endif %}
+    <span>{{ post.date }}</span>
 
   </div>
   {% endfor %}

@@ -1,6 +1,5 @@
 ---
 date: 2013-11-10
-layout: post
 slug: appday-box-gdg-kolkata
 title: AppDay in a Box with GDG Kolkata
 tags:

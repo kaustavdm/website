@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2011-08-27
-layout: post
 slug: control-brightness-manually-in-samsung-n148-n150-laptops-using-ubuntu
 title: Control brightness manually in Samsung N148 / N150 laptops using Ubuntu
 categories:

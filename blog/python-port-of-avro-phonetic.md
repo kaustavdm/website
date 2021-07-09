@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-01-23
-layout: post
 slug: python-port-of-avro-phonetic
 title: Python port of Avro Phonetic
 tags:

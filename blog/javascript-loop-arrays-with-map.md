@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2015-12-27
 slug: javascript-loop-arrays-with-map
 title: JavaScript - Loop Arrays with .map()

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-10-08
-layout: post
 slug: experiences-mozilla-summit-2013
 title: Experiences from Mozilla Summit 2013
 tags:

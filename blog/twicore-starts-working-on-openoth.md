@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2010-08-21
-layout: post
 slug: twicore-starts-working-on-openoth
 title: TwiCore starts working on OpenOTH
 categories:

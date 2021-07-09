@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-06-29
-layout: post
 slug: proposing-event-format-for-firefox-os-in-india
 title: Proposing an event format for Firefox OS  in India
 tags:

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-06-02
-layout: post
 slug: hackathons-as-startup-creation-platforms-are-anti-pattern
 title: Hackathons as startup creation platforms are anti-pattern
 tags:

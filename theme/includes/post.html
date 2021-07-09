@@ -54,9 +54,10 @@ layout: base
             />
           </span>
       </p>
-      {% if tags %}
+      {% assign tagList = {{ tags | filterTagList }} %}
+      {% if tagList %}
         <p>Tags:
-          {% for t in tags %}
+          {% for t in tagList %}
             <a href="/tags/{{ t | slug | url }}">{{ t }}</a>
           {% endfor %}
         </p>

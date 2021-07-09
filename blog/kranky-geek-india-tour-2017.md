@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2017-03-01
 slug: kranky-geek-india-tour-2017
 title: Kranky Geek India Tour 2017

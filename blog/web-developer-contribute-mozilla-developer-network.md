@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-11-06
-layout: post
 slug: web-developer-contribute-mozilla-developer-network
 title: Web Developer? Contribute to Mozilla Developer Network!
 tags:

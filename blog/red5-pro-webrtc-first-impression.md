@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2017-01-19
 slug: red5-pro-webrtc-first-impression
 title: "Red5 Pro WebRTC: First impression"

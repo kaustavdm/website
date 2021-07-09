@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-03-04
 slug: online-activism
 title: On online activism

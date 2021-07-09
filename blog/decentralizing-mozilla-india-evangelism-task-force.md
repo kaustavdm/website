@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-07-04
-layout: post
 slug: decentralizing-mozilla-india-evangelism-task-force
 title: Decentralizing Mozilla India Evangelism Task Force
 tags:

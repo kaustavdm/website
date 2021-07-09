@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-01-26
-layout: post
 slug: lessons-last-two-appdays-mdn-sprints
 title: Lessons from the last two AppDays and MDN sprints
 tags:

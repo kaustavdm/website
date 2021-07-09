@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2011-10-27
-layout: post
 slug: install-dwa-125-wireless-driver-on-ubuntu-11-10
 title: Install DWA-125 wireless driver on Ubuntu 11.10
 categories:

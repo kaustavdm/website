@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2018-01-17
 slug: versioning-content-postgresql
 title: Store revisions of content in PostgreSQL

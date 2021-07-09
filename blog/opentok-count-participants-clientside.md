@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2017-01-20
 slug: opentok-count-participants-clientside
 title: "Count participants client-side in OpenTok"

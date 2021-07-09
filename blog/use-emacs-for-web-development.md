@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2012-08-17
-layout: post
 slug: use-emacs-for-web-development
 title: Use Emacs for web development
 tags:

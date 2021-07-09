@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-28
-layout: post
 slug: non-technical-vs-non-developer
 title: Non-technical vs Non-developer
 tags:

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-09-29
-layout: post
 slug: webcamp-3-0-kolkata-productive-meetup-geeks
 title: Webcamp 3.0 Kolkata - A productive meetup of Geeks
 tags:

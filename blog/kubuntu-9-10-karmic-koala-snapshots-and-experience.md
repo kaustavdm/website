@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2009-11-18
-layout: post
 slug: kubuntu-9-10-karmic-koala-snapshots-and-experience
 title: Kubuntu 9.10 Karmic Koala Snapshots and Experience
 ---

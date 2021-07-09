@@ -1,5 +1,4 @@
 ---
-layout: post
 slug: webrtc-not-magic
 date: 2017-02-14
 title: WebRTC isn't magic

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2014-08-23
-layout: post
 slug: connect-firefox-os-spreadtrum-device-adb
 title: Connect Firefox OS Spreadtrum devices through adb
 tags:

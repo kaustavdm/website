@@ -1,14 +1,10 @@
 ---
-author: kaustav
-comments: true
 date: 2014-01-04
-layout: post
 slug: upgraded-fusioncharts-blog
 title: How we upgraded the FusionCharts blog
 tags:
-- blog
-- fusioncharts
-- wordpress
+  - fusioncharts
+  - wordpress
 ---
 
 Last week we did [a major infrastructural and architectural change](http://blog.fusioncharts.com/2014/01/48-hour-marathon-to-a-better-blog/) on the [FusionCharts blog](http://blog.fusioncharts.com). We finished the whole thing in a hackathon! The hackathon aimed at finding the key culprits causing performance issues and fixing them in a span of 48 hours. How cool can it be if you work in a company that organizes such code sprints time and again! I love this attitude :-D<!-- more -->

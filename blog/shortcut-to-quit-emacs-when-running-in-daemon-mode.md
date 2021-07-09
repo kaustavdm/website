@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-06-22
-layout: post
 slug: shortcut-to-quit-emacs-when-running-in-daemon-mode
 title: Shortcut to quit Emacs when running in daemon mode
 tags:

@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2015-02-14
-layout: post
 slug: the-next-ai-revolution
 title: The next AI revolution
 post_format:

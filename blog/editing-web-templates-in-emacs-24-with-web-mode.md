@@ -1,8 +1,5 @@
 ---
-author: kaustav
-comments: true
 date: 2013-03-22
-layout: post
 slug: editing-web-templates-in-emacs-24-with-web-mode
 title: Editing web templates in Emacs 24 with web-mode
 tags:

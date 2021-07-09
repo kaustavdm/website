@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2016-03-23
 slug: escape-route
 title: "Taking the escape route"
