@@ -16,23 +16,19 @@ layout: base
       {% endif %}
 
       {% if image %}
-      <div>
-        <figure
-          itemprop="image"
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          class="cover-image"
-        >
-          <img
-            src="{{ image | url }}"
-            alt="{{ title }}"
-            itemprop="url"
-            class="card"
-          />
-          <meta itemprop="width" content="740" />
-          <meta itemprop="height" content="300" />
-        </figure>
-      </div>
+      <figure
+        itemprop="image"
+        itemscope
+        itemtype="https://schema.org/ImageObject"
+        class="cover-image"
+      >
+        <img
+          src="{{ image | url }}"
+          alt="{{ title }}"
+          itemprop="url"
+          class="card"
+        />
+      </figure>
       {% endif %}
 
       <div class="meta">

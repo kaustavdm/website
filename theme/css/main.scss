@@ -9,6 +9,14 @@
 @import "./color-schemes";
 @import "./top-bar";
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: $font-family;
   font-size: $font-size;
@@ -74,7 +82,7 @@ figure {
   margin: 0 auto;
 
   &:first-of-type {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .content {
@@ -156,7 +164,12 @@ figure {
     font-size: $small-font-size * 1.5;
     line-height: $small-line-height * 1.25;
     font-weight: 700;
-    margin: $small-line-height * 2 auto $small-line-height auto;
+    margin: 2rem auto;
+    word-spacing: -0.125rem;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   .subtitle {
