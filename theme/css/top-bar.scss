@@ -21,7 +21,8 @@ nav.top-bar {
     }
 
     &:hover {
-      background-color: darken($light-body-bg, 10%);
+      color: $dark-text-color;
+      background-color: lighten($dark-body-bg, 10%);
     }
   }
 }

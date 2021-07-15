@@ -13,7 +13,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -103,15 +105,34 @@ figure {
       overflow-y: scroll;
       max-height: 80vh;
       max-width: 100%;
-      padding: 0.5rem;
       margin: 0;
+      padding: 2rem;
       border-radius: 0.25rem;
-      background-color: lighten($dark-body-bg, 5%);
+      background-color: lighten($dark-body-bg, 10%);
+      color: lighten($dark-text-color, 10%);
       line-height: 1;
+    }
+
+    hr:not(.footnotes-sep):after {
+      display: block;
+      text-align: center;
+      content: "...";
+      color: darken($dark-text-color, 20%);
+      font-size: 1rem;
+      height: 1rem;
+      line-height: 1rem;
+      clear: both;
+      border: none;
+    }
+
+    hr:not(.footnotes-sep) {
+      border: none;
     }
 
     hr {
       margin: 4rem;
+      color: darken($dark-text-color, 20%);
+      background: transparent;
     }
 
     code {
@@ -219,13 +240,13 @@ figure {
 
   a.button {
     padding: 1rem 2rem;
-    background-color: $light-body-bg;
+    background-color: darken($light-body-bg, 10%);
     color: $light-text-color;
     transition: background-color 0.5s ease-out, color 0.25s ease-in;
 
     &.primary {
       background-color: $light-link-color;
-      color: $light-text-color;
+      color: $light-body-bg;
     }
 
     &:hover {

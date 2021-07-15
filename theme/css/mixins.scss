@@ -19,13 +19,17 @@
       color: $dark-link-color;
       text-decoration: none;
 
+      &:not(.button) {
+        text-shadow: 0px 1px 0px #000;
+      }
+
       &:hover {
-        color: lighten($dark-link-color, 50%);
+        color: lighten($dark-link-color, 20%);
       }
     }
 
     .subtitle, .meta {
-      color: darken($dark-text-color, 50%);
+      color: darken($dark-text-color, 20%);
     }
   }
 
@@ -43,6 +47,10 @@
     text-decoration: none;
     color: $light-link-color;
 
+    &:not(.button) {
+      text-shadow: none !important;
+    }
+
     &:hover {
       color: darken($light-link-color, 50%);
     }
@@ -54,13 +62,19 @@
       text-decoration: none;
 
       &:hover {
-        color: darken($light-link-color, 15%);
+        color: darken($light-link-color, 15%) !important;
       }
     }
 
-    .subtitle, .meta {
-      color: lighten($light-text-color, 25%);
+    hr:after {
+      color: lighten($light-text-color, 25%) !important;
     }
+
+    .subtitle, .meta {
+      color: lighten($light-text-color, 25%) !important;
+    }
+
+
   }
 
   .card {
