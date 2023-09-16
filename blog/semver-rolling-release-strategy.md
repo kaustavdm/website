@@ -9,7 +9,7 @@ tags:
 - philosophy
 ---
 
-I decided to take a hybrid approach for relase versioning on a new project I have joined.
+I decided to take a hybrid approach for release versioning on a new project I have joined.
 
 I have been rather disillusioned with semver, and though I love semver, the disillusionment is about the inconsistency with which semver is applied to projects. In a project that I control alone (or with likeminds), I prefer semver because it conveys, as the name says, semantic information about the state of the software.
 
