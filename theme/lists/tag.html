@@ -15,7 +15,7 @@ eleventyComputed:
 permalink: /tags/{{ tag | slug }}/
 ---
 
-{% for post in collections[tag] %}
+{% for post in collections[tag] reversed %}
 <div class="card">
   <h2 class="title">
     <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
@@ -23,6 +23,7 @@ permalink: /tags/{{ tag | slug }}/
   {% if post.data.description %}
   <p class="subtitle">{{ post.data.description | escape }}</p>
   {% endif %}
+  <p class="meta small">{{ post.date | date: "%b %d, %Y" }}</p class="meta small">
 </div>
 {% endfor %}
 

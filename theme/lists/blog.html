@@ -18,7 +18,7 @@ eleventyComputed:
     {% if post.data.description %}
     <p class="subtitle">{{ post.data.description | escape }}</p>
     {% endif %}
-    <p class="meta small">{{ post.date }}</p class="meta small">
+    <p class="meta small">{{ post.date | date: "%b %d, %Y" }}</p class="meta small">
   </div>
 {% endfor %}
 
