@@ -24,7 +24,7 @@
   },
   "homepage": "https://kaustavdm.in",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^2.0.1",
     "@csstools/normalize.css": "^11.0.1",
     "markdown-it-footnote": "^3.0.3",
     "sass": "^1.35.2"
