@@ -53,7 +53,7 @@ layout: base
               />
             </span>
         </p>
-        {% assign tagList = {{ tags | filterTags }} %}
+        {% assign tagList = "{{ tags | filterTags }}" %}
         {% if tagList %}
           <p class="small">Tags:
             {% for t in tagList %}

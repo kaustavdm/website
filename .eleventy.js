@@ -21,6 +21,12 @@ module.exports = function (config) {
     }).use(markdownItFootnote)
   );
 
+  // Set Liquid options
+  config.setLiquidOptions({
+    dynamicPartials: true,
+    strictFilters: false,
+  });
+
   // Passthrough copy assets
   config.addPassthroughCopy("assets/");
 
