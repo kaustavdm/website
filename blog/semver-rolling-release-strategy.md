@@ -17,13 +17,13 @@ But, semver needs strict discipline thoughout the team. It demands a thorough un
 
 The obvious alternative is rolling releases, but then I get tired of the long strings of non-semantic information in the version tags. For example, it is cool that you decided to release a software on the 1st of January, 2023, but IDK about the state of the software without going through the release notes. I am a proponent of semantic names.
 
-So, with this new project I struck a balance. Why not mix semver with rolling releases? The solution: Drop the patch, and add a pre-release in `YYYYMMDD` format.
+I decided to strike a balance with this project. Why not mix semver with rolling releases? The solution: Drop the patch, and add a pre-release in `YYYYMMDD` format.
 
 The version format thus becomes: `v<major>.<minor>-<YYYYMMDD>`.
 
 At this point, it is not semver anymore since semver requires using the `patch`. Here is why that is acceptable in this project’s context.
 
-In this scheme, a change in the `major` version will denote a break of backwards compatibility of any public API. A change in the `minor` version will denote new features or deprecation of existing public APIs. We don’t need the `patch` because the team will continue on a rolling weekly release. Internal changes that do not affect public APIs do not change the `major` or `minor`, and only increases the date. So, any bug fixes or hotfixes ship anyway and will result in an increment of the date stamp.
+In this scheme, a change in the `major` version will denote a break of backwards compatibility of any public API. A change in the `minor` version will denote new features or deprecation of existing public APIs. We don’t need the `patch` because the team will continue on a rolling weekly release. Internal changes that do not affect public APIs do not change the `major` or `minor`, and only increase the date. So, any bug fixes or hotfixes ship anyway and will result in an increment of the date stamp.
 
 A version release is thus read as “a release for the `<major>.<minor>` branch made on the `YYYYMMDD` date”. So, when you see `v0.2-20230918` it kinda becomes self-evident.
 
