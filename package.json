@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "description": "Kaustav's website and blog's source code. Go to https://kaustavdm.in for the content.",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaustavdm/kaustavdm.in.git"
+    "url": "git+https://github.com/kaustavdm/website.git"
   },
   "keywords": [
     "blog"
@@ -20,13 +19,14 @@
   "author": "Kaustav Das Modak",
   "license": "CC0",
   "bugs": {
-    "url": "https://github.com/kaustavdm/kaustavdm.in/issues"
+    "url": "https://github.com/kaustavdm/website/issues"
   },
   "homepage": "https://kaustavdm.in",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@csstools/normalize.css": "^12.0.0",
     "markdown-it-footnote": "^3.0.3",
-    "sass": "^1.67.0"
+    "sass": "^1.67.0",
+    "eleventy-plugin-embed-everything": "^1.16.0"
   }
 }

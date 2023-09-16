@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
+const embedEverything = require("eleventy-plugin-embed-everything");
 const filters = require("./theme/filters");
 const transforms = require("./theme/transforms");
 
@@ -20,6 +21,9 @@ module.exports = function (config) {
       typographer: true,
     }).use(markdownItFootnote)
   );
+
+  // Embed everything
+  config.addPlugin(embedEverything);
 
   // Set Liquid options
   config.setLiquidOptions({

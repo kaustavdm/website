@@ -7,7 +7,7 @@ tags:
 - discussions
 ---
 
-https://www.youtube.com/live/oeLG_HIzuN0?si=W72xVJVeNfXbwTvZ
+https://www.youtube.com/watch?v=oeLG_HIzuN0
 
 ## Why record and stream these discussions?
 
