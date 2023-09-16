@@ -7,6 +7,8 @@ tags:
 - discussions
 ---
 
+https://www.youtube.com/live/oeLG_HIzuN0?si=W72xVJVeNfXbwTvZ
+
 ## Why record and stream these discussions?
 
 **Deb:** We [Deb and Kaustav] have been discussing some interesting topics in the last few weeks. I want to keep a record of these discussions and create a time capsule of present day thoughts in the hope that it will be useful in the future, to the future-self or to anyone else stumbling across these records.
