@@ -110,7 +110,7 @@ figure {
       border-radius: 0.25rem;
       background-color: lighten($dark-body-bg, 10%);
       color: lighten($dark-text-color, 10%);
-      line-height: 1;
+      line-height: 1.25;
     }
 
     hr:not(.footnotes-sep):after {
@@ -138,17 +138,17 @@ figure {
     code {
       margin: 0;
       line-height: 1;
-      font-size: $small-font-size * 0.9;
-
-      p & {
-        padding-left: 4px;
-        padding-right: 4px;
-        background-color: lighten($dark-body-bg, 5%);
-      }
     }
 
-    & > p,
-    & > div,
+    p code {
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 4px;
+      background-color: lighten($dark-body-bg, 5%);
+    }
+
+    &>p,
+    &>div,
     & pre,
     & ul,
     & ol,
@@ -161,8 +161,8 @@ figure {
       margin-bottom: 2rem;
       line-height: 1.25;
 
-      + p,
-      + div {
+      +p,
+      +div {
         margin-top: 0.5rem;
       }
     }
@@ -174,8 +174,8 @@ figure {
       margin-top: 2rem;
       margin-bottom: 1rem;
 
-      + p,
-      + div {
+      +p,
+      +div {
         margin-top: 0.5rem;
       }
     }
@@ -256,6 +256,7 @@ figure {
   }
 
   .footnotes {
+
     ol,
     ul {
       li {
@@ -286,8 +287,8 @@ figure {
         line-height: $large-line-height;
       }
 
-      & > p,
-      & > div,
+      &>p,
+      &>div,
       & pre,
       & ul,
       & ol,
