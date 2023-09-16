@@ -1,0 +1,25 @@
+---
+layout: page
+pagination:
+  data: collections["discussions-with-deb"]
+  size: 10
+  reverse: true
+  alias: posts
+permalink: discussions-with-deb/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}index.html
+eleventyComputed:
+  title: Discussions with Deb {% if pagination.pageNumber > 0 %} — page-{{ pagination.pageNumber }}{% endif %}
+---
+
+{% for post in posts %}
+  <div class="card">
+    <h2 class="title">
+      <a href="{{ post.url | url }}">{{ post.data.title | escape }}</a>
+    </h2>
+    {% if post.data.description %}
+    <p class="subtitle">{{ post.data.description | escape }}</p>
+    {% endif %}
+    <p class="meta small">{{ post.date | date: "%b %d, %Y" }}</p class="meta small">
+  </div>
+{% endfor %}
+
+{% include "pagination.html" %}
