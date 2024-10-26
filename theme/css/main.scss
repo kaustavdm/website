@@ -205,6 +205,11 @@ figure {
     line-height: $font-size * 1.25;
   }
 
+  .text-medium {
+    font-size: $font-size * 1.25;
+    line-height: $font-size * 1.75;
+  }
+
   .meta {
     margin: 1.5rem 0;
     padding: 1rem 0;
