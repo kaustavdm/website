@@ -9,6 +9,10 @@ nav_title: Presentations
 
 Curated list of my public presentations. Grouped thematically. Sorted by date (recent first) within each category.
 
+## Freshworks
+
+- TODO
+
 ## Postman
 
 - [APIOps with Postman](https://kaustavdm.github.io/apiops-with-postman/) - APIDays Singapore 2019
