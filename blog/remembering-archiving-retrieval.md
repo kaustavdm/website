@@ -15,7 +15,7 @@ At its core, remembering is a battle against entropy. The universe's natural ten
 
 The tension between preservation and forgetting underscores the need for nuance in how we approach building knowledge archives. Hoarding every piece of data indiscriminately is neither practical nor meaningful, unless it is queryable and retrievable with its context. Instead, we should prioritise data that fosters understanding and insight. **Intent** becomes a critical factor here; archiving the motivations, decisions, and contexts behind actions often provides more value than the actions themselves.
 
-Here's the thing: collective memory often appears orderly when viewed as linear history, but it is chaotic to individuals within the system. To avoid biased narratives, it is essential to capture diverse perspectives, akin to viewing a single event through the eyes of multiple characters in a story.[^1]
+Here's the thing: collective memory often appears orderly when viewed as linear history, but it is chaotic to individuals within the system. To avoid biased narratives, it is essential to capture diverse perspectives, similar to viewing a single event through the eyes of multiple characters in a story.[^1]
 
 ---
 
@@ -75,8 +75,6 @@ By integrating these principles, we can design systems that empower us to rememb
 - Encourage user-driven curation to democratise knowledge enrichment.
 
 Archiving is not just about storing information; it is about crafting a narrative that honours the past while remaining open to reinterpretation. By adopting a systems approach, we can navigate the complexities of memory, balancing the preservation of knowledge with the inevitability of change.
-
----
 
 [^1]: Imagine if Lord of The Rings was retold from the perspective of every character. I would like to read Sauron and Samwise Gamgee's version. Did Sauron regret coming out (as Sauron) to Celebrimbor? How else can we verify if Samwise was a closeted gay in a strictly cis-heteronormative society?
 

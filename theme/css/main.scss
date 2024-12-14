@@ -113,20 +113,21 @@ figure {
       line-height: 1.25;
     }
 
-    hr:not(.footnotes-sep):after {
-      display: block;
-      text-align: center;
-      content: "...";
-      color: darken($dark-text-color, 20%);
-      font-size: 1rem;
-      height: 1rem;
-      line-height: 1rem;
-      clear: both;
-      border: none;
-    }
-
     hr:not(.footnotes-sep) {
       border: none;
+      position: relative;
+      height: 20px;
+    }
+
+    hr:not(.footnotes-sep)::before {
+      content: "...";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: darken($dark-text-color, 20%);
+      font-size: 1rem;
+      line-height: 1rem;
     }
 
     hr {
