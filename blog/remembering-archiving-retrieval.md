@@ -35,7 +35,7 @@ Further, as I mentioned earlier, I consider intent as a driving force behind act
 
 ---
 
-## Criteria for Effective Knowledge Archival Systems
+## Criteria for effective knowledge archival systems
 
 Given the complexities of memory and the subjective nature of interpretation, any knowledge archival system should address the following key criteria:
 
@@ -51,15 +51,15 @@ Data divorced from its context loses much of its meaning. Effective archival sys
 
 A single perspective can never encapsulate the full truth of an event. Systems may be designed to incorporate diverse viewpoints, mitigating biases and fostering a more comprehensive understanding. One way to achieve this is by enabling targeted queries that highlight alternative perspectives.
 
-### 4. Tamper-Proof History
+### 4. Tamper-proof history
 
 In an age where digital data is easily manipulated, ensuring authenticity and immutability is critical. Technologies like zero-knowledge proofs, content-addressable representation, and smart contracts can provide a tamper-proof foundation for archiving systems. This guarantees that once recorded, historical data remains unaltered, preserving its integrity.
 
-### 5. Intelligent Search and Retrieval
+### 5. Intelligent search and retrieval
 
 As archives grow, finding specific information becomes increasingly challenging. Sophisticated search and retrieval mechanisms, powered by AI and machine learning, can address this issue. By employing natural language processing and semantic understanding, these systems can surface relevant information based on user intent rather than rigid keyword matching.
 
-#### 6. User-Driven annotation and graph enrichment
+### 6. User-driven annotation and graph enrichment
 
 Empowering users to contribute to archives through annotations fosters collective responsibility for knowledge preservation. However, this requires balancing open participation with content quality. Moderation mechanisms, such as peer review or reputation-based systems, can ensure that contributions are accurate and meaningful. Though, federated knowledge graphs for individuals can do this better.
 
