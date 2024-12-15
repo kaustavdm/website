@@ -78,7 +78,7 @@ Archiving is not just about storing information; it is about crafting a narrativ
 
 [^1]: Imagine if Lord of The Rings was retold from the perspective of every character. I would like to read Sauron and Samwise Gamgee's version. Did Sauron regret coming out (as Sauron) to Celebrimbor? How else can we verify if Samwise was a closeted gay in a strictly cis-heteronormative society?
 
-[^2]: See: Adriaans, Pieter, "Information", The Stanford Encyclopedia of Philosophy (Summer 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.), https://plato.stanford.edu/archives/sum2024/entries/information/. 
+[^2]: See: Adriaans, Pieter, ["Information"](https://plato.stanford.edu/archives/sum2024/entries/information/), The Stanford Encyclopedia of Philosophy (Summer 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). 
 
 [^3]: Floridi, L. (2014). *The Fourth Revolution: How the Infosphere is Reshaping Human Reality*. Oxford University Press.
 
