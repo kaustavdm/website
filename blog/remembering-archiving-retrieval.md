@@ -65,7 +65,7 @@ Empowering users to contribute to archives through annotations fosters collectiv
 
 ---
 
-By integrating these principles, we can design systems that empower us to remember, understand, and learn. Such systems must:
+By integrating these principles, we can design systems that empower us to remember, understand, and learn. Such systems should:
 
 - Embrace knowledge graphs to handle complexity and scale.
 - Capture context to preserve the richness of human experience.
