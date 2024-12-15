@@ -8,6 +8,6 @@ function filterTags(tags=[]) {
   return tags.filter((tag) => ["all", "nav", "blog", "drafts", "discussions-with-deb"].indexOf(tag) === -1);
 }
 
-module.exports = {
-  filterTags,
-};
+export default {
+  filterTags
+}

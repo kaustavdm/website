@@ -1,3 +1,6 @@
+@use 'variables' as *;
+@use 'sass:color';
+
 @mixin dark-scheme {
   color: $dark-text-color;
   background: $dark-body-bg;
@@ -9,7 +12,7 @@
     transition: color 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 
     &:hover {
-      color: lighten($dark-text-color, 20%);
+      color: color.adjust($dark-text-color, $lightness: 20%);
       text-decoration: underline;
     }
   }
@@ -24,12 +27,13 @@
       }
 
       &:hover {
-        color: lighten($dark-link-color, 20%);
+        // color: lighten($dark-link-color, 20%);
+        color: color.adjust($dark-link-color, $lightness: 20%);
       }
     }
 
     .subtitle, .meta {
-      color: darken($dark-text-color, 20%);
+      color: color.adjust($dark-text-color, $lightness: -20%);
     }
   }
 
@@ -52,7 +56,7 @@
     }
 
     &:hover {
-      color: darken($light-link-color, 50%);
+      color: color.adjust($light-link-color, $lightness: -50%);
     }
   }
 
@@ -62,22 +66,22 @@
       text-decoration: none;
 
       &:hover {
-        color: darken($light-link-color, 15%) !important;
+        color: color.adjust($light-link-color, $lightness: -15%) !important;
       }
     }
 
     hr:after {
-      color: lighten($light-text-color, 25%) !important;
+      color: color.adjust($light-text-color, $lightness: 25%) !important;
     }
 
     .subtitle, .meta {
-      color: lighten($light-text-color, 25%) !important;
+      color: color.adjust($light-text-color, $lightness: 25%) !important;
     }
 
 
   }
 
   .card {
-    box-shadow: 0rem 0.25rem 0.5rem lighten($light-text-color, 70%);
+    box-shadow: 0rem 0.25rem 0.5rem color.adjust($light-text-color, $lightness: 70%);
   }
 }

@@ -1,13 +1,14 @@
 @charset "utf-8";
 
-@use 'sass:math';
 @use 'normalize.css';
+@use 'sass:math';
+@use 'sass:color';
 
-@import "./variables";
-@import "./mixins";
-@import "./fonts";
-@import "./color-schemes";
-@import "./top-bar";
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'fonts' as *;
+@use 'color-schemes' as *;
+@use 'top-bar' as *;
 
 html {
   box-sizing: border-box;
@@ -108,8 +109,8 @@ figure {
       margin: 0;
       padding: 2rem;
       border-radius: 0.25rem;
-      background-color: lighten($dark-body-bg, 10%);
-      color: lighten($dark-text-color, 10%);
+      background-color: color.adjust($dark-body-bg, $lightness: 10%);
+      color: color.adjust($dark-text-color, $lightness: 10%);
       line-height: 1.25;
     }
 
@@ -125,14 +126,14 @@ figure {
       left: 50%;
       transform: translateX(-50%);
       text-align: center;
-      color: darken($dark-text-color, 20%);
+      color: color.adjust($dark-text-color, $lightness: -20%);
       font-size: 1rem;
       line-height: 1rem;
     }
 
     hr {
       margin: 4rem;
-      color: darken($dark-text-color, 20%);
+      color: color.adjust($dark-text-color, $lightness: -20%);
       background: transparent;
     }
 
@@ -145,7 +146,7 @@ figure {
       padding-left: 4px;
       padding-right: 4px;
       border-radius: 4px;
-      background-color: lighten($dark-body-bg, 5%);
+      background-color: color.adjust($dark-body-bg, $lightness: 5%);
     }
 
     &>p,
@@ -246,7 +247,7 @@ figure {
 
   a.button {
     padding: 1rem 2rem;
-    background-color: darken($light-body-bg, 10%);
+    background-color: color.adjust($light-body-bg, $lightness: -10%);
     color: $light-text-color;
     transition: background-color 0.5s ease-out, color 0.25s ease-in;
 
@@ -257,7 +258,7 @@ figure {
 
     &:hover {
       color: $light-text-color;
-      background-color: darken($light-body-bg, 10%);
+      background-color: color.adjust($light-body-bg, $lightness: -10%);
     }
   }
 
@@ -277,10 +278,10 @@ figure {
   text-align: center;
   margin-top: 4rem;
   font-size: $small-font-size;
-  color: darken($dark-text-color, 20%);
+  color: color.adjust($dark-text-color, $lightness: -20%);
 
   a {
-    color: darken($dark-text-color, 20%);
+    color: color.adjust($dark-text-color, $lightness: -20%);
   }
 }
 

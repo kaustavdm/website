@@ -1,3 +1,6 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
 ::root {
   color-scheme: dark light;
 }
@@ -12,14 +15,14 @@ body {
 }
 
 // Dark colour scheme override
-@media (prefers-color-scheme: dark) {
+@media #{$dark-mediaquery} {
   body {
     @include dark-scheme;
   }
 }
 
 // Light colour scheme override
-@media (prefers-color-scheme: light) {
+@media #{$light-mediaquery} {
   body {
     @include light-scheme;
   }

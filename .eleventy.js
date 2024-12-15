@@ -1,15 +1,41 @@
-const markdownIt = require("markdown-it");
-const markdownItFootnote = require("markdown-it-footnote");
-const embedEverything = require("eleventy-plugin-embed-everything");
-const filters = require("./theme/filters");
-const transforms = require("./theme/transforms");
+import markdownIt from "markdown-it";
+import markdownItFootnote from "markdown-it-footnote";
+import embedEverything from "eleventy-plugin-embed-everything";
+import filters from "./theme/filters.js";
+import * as sass from "sass";
 
-module.exports = function (config) {
+export default function (config) {
   // Enable data deep merge
   config.setDataDeepMerge(true);
 
   // Add SCSS files to watch target
   config.addWatchTarget("./theme/css/*.scss");
+
+
+  // Sass
+  config.addTemplateFormats("scss");
+
+  // Creates the extension for use
+	config.addExtension("scss", {
+		outputFileExtension: "css", // optional, default: "html"
+
+		// `compile` is called once per .scss file in the input directory
+		compile: async function (inputContent, inputPath) {
+      // We only want to compile main.scss
+      // If inputPath does not end with /main.scss, skip
+      if (!inputPath.endsWith("/main.scss")) {
+        return;
+      }
+			let result = sass.compileString(inputContent, {
+        loadPaths: ["theme/css", "node_modules/@csstools/normalize.css"]
+      });
+
+			// This is the render function, `data` is the full data cascade
+			return async (data) => {
+				return result.css;
+			};
+		},
+	});
 
   // Customize markdown parsing
   config.setLibrary(
@@ -48,10 +74,10 @@ module.exports = function (config) {
     return filters.filterTags(Array.from(tagSet).sort());
   });
 
-  // Register all transforms
-  for (const [k, v] of Object.entries(transforms)) {
-    config.addTransform(k, v);
-  }
+  // // Register all transforms
+  // for (const [k, v] of Object.entries(transforms)) {
+  //   config.addTransform(k, v);
+  // }
 
   return {
     dir: {
