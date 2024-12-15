@@ -273,6 +273,17 @@ figure {
   }
 }
 
+.license-declaration {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: $small-font-size;
+  color: darken($dark-text-color, 20%);
+
+  a {
+    color: darken($dark-text-color, 20%);
+  }
+}
+
 @media only screen and (min-width: 980px) {
   .row {
     flex-direction: row;
