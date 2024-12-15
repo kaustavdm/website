@@ -5,6 +5,7 @@ title: The Art of Remembering — A Systems Approach to Archiving and Retrieval
 description: One does not simply hoard every bit of data they encounter. Instead, we must prioritize information that is valuable, meaningful, and conducive to our collective understanding of the world. It is okay to forget.
 tags:
 - technology
+- philosophy
 - upspeak
 - thoughts
 ---
