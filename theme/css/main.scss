@@ -247,7 +247,7 @@ figure {
 
   a.button {
     padding: 1rem 2rem;
-    background-color: color.adjust($light-body-bg, $lightness: -10%);
+    background-color: color.adjust($light-body-bg, $lightness: -15%);
     color: $light-text-color;
     transition: background-color 0.5s ease-out, color 0.25s ease-in;
 
