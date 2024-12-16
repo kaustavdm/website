@@ -1,7 +1,7 @@
 ---
 date: 2024-12-15
 slug: remembering-archiving-retrieval
-title: The Art of Remembering — A Systems Approach to Archiving and Retrieval
+title: The art of remembering — a systems approach to archiving and retrieval
 description: One does not simply hoard every bit of data they encounter. Instead, we must prioritize information that is valuable, meaningful, and conducive to our collective understanding of the world. It is okay to forget.
 tags:
 - technology
