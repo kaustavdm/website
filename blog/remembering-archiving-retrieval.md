@@ -8,6 +8,7 @@ tags:
 - philosophy
 - upspeak
 - thoughts
+- knowledge-graphs
 ---
 
 Archiving and retrieving information transcend the act of mere data storage; they represent an enduring human pursuit to preserve experience and knowledge. These processes reflect our collective desire to understand the past, navigate the present, and shape the future. Yet, in an age of overwhelming information abundance, it is imperative to critically examine the systems we use to manage this deluge.
