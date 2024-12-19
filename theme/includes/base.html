@@ -15,6 +15,29 @@
   <link rel="stylesheet" type="text/css" href="{{ '/theme/css/main.css' | url}}" />
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | url }}" />
   <title>{{ title }}</title>
+
+  {%- comment -%} Common OpenGraph tags for all pages {%- endcomment -%}
+  <meta property="og:site_name" content="{{ meta.siteName }}">
+  <meta property="og:locale" content="{{ meta.locale }}">
+  <meta property="og:url" content="{{ meta.url }}{{ page.url }}">
+
+  {%- comment -%} Content that child layouts can override {%- endcomment -%}
+  {% capture og_tags %}
+  <meta property="og:type" content="{{ meta.type }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:image" content="{{ meta.url }}{{ image | default:meta.image }}">
+  {%- capture default_alt -%}
+    {%- if image -%}
+      Cover image for {{ title }}
+    {%- else -%}
+      Default site image for {{ meta.siteName }}
+    {%- endif -%}
+  {%- endcapture -%}
+  <meta property="og:image:alt" content="{{ image_alt | default: default_alt }}">
+  {% endcapture %}
+
+  {{ og_tags }}
 </head>
 
 <body>
