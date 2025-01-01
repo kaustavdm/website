@@ -117,7 +117,7 @@ In the (current) first implementation of the `app` package, the `Module` interfa
 
 Each module can choose to listen for HTTP requests through a north-bound interface, and to NATS subjects through a south-bound interface. For either actions, a module can publish messages out to NATS. The `app.App` struct handles the responsibility of composing the HTTP handlers exported from modules into a single web server, and the message handlers exported from modules as NATS subscribers.
 
-### Writing Your First Module
+### Implementing a `Module`
 
 Here's where it gets interesting. Let's say you want to create a user management module. It might look something like this:
 
@@ -185,7 +185,7 @@ This abstraction might seem like unnecessary indirection, but it serves several 
 
 ---
 
-## Building a Modular Monolith
+## Building a modular monolith
 
 Here's where the modules come together to make the `App` happen. When you add multiple modules to your application:
 
@@ -200,7 +200,7 @@ You're creating a modular monolith. Each module is self-contained and communicat
 
 The `app` package automatically namespaces your HTTP routes (so the `/create` route from the `users` module becomes `/users/create`) and handles message routing through NATS. This means your modules remain completely isolated from each other, communicating only through their defined interfaces.
 
-## Configuration Made Simple
+## Configuration made simple
 
 The `app.App` configuration (defined in `app.Config`) mirrors this modular structure:
 
