@@ -69,7 +69,7 @@ I first came across this feature in this excellent video on [embedding NATS in G
 
 In general, the embedded mode is great for development and testing. When you're ready for production, you can switch to an external NATS server without changing your application code, if you are running a SaaS. The `app` package makes this choice configurable, in a surprisingly few lines of code.
 
-But, the **embedded mode really shines if your application is meant to be self-hosted by individuals** and might be running on a resource-constrained environment, or even a single VM or a lightweight compute instance, I see no harm in using embedded NATS in "production". DIY, amirite?
+But, the **embedded mode really shines if your application is meant to be self-hosted by individuals** and might be running on a resource-constrained environment, or even a single VM or a lightweight compute instance. In such cases, I see no harm in using embedded NATS in "production". DIY, amirite?
 
 There's more.
 
