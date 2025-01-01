@@ -1,7 +1,7 @@
 ---
 date: 2025-01-01
 slug: nats-upspeak-app-framework
-title: Upspeak's ultra-lightweight NATS-based modular app framework in Go
+title: Ultra-lightweight NATS-based modular app framework in Go
 description: An explainer on why I wrote the `app` package for Upspeak. Why I used NATS and how it can be useful for you too.
 tags:
 - explanation
