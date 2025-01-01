@@ -25,6 +25,7 @@
   "homepage": "https://kaustavdm.in",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@csstools/normalize.css": "^12.1.1",
     "eleventy-plugin-embed-everything": "^1.19.0",
     "markdown-it-footnote": "^4.0.0",

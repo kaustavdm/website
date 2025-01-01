@@ -3,6 +3,7 @@ import markdownItFootnote from "markdown-it-footnote";
 import embedEverything from "eleventy-plugin-embed-everything";
 import filters from "./theme/filters.js";
 import * as sass from "sass";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 export default function (config) {
   // Enable data deep merge
@@ -11,6 +12,8 @@ export default function (config) {
   // Add SCSS files to watch target
   config.addWatchTarget("./theme/css/*.scss");
 
+  // Syntax highlight
+  config.addPlugin(syntaxHighlight);
 
   // Sass
   config.addTemplateFormats("scss");

@@ -10,6 +10,8 @@
 @use 'color-schemes' as *;
 @use 'top-bar' as *;
 
+@use 'prism-vsc-dark-plus';
+
 html {
   box-sizing: border-box;
 }
