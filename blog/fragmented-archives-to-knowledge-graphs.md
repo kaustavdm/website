@@ -1,7 +1,7 @@
 ---
 date: 2024-12-16
 slug: fragmented-archives-to-knowledge-graphs
-title: The evolution of knowledge — from fragmented archives to knowledge graphs
+title: From fragmented archives to knowledge graphs
 description: Exploring how intent-driven knowledge systems can transcend traditional archives; addressing challenges of context, ethics, and evolution in an interconnected world.
 tags:
 - technology
