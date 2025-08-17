@@ -9,6 +9,10 @@ nav_title: Presentations
 
 Curated list of my public presentations and developer event enablement. Grouped by organisation/theme. Sorted by date (recent first) within each category.
 
+## Twilio
+
+- [Twilio Forge: Conversational AI in Action – APJ](https://developers.twilio.com/Twilio-Developers/twilio-forge-conversational-ai-in-action-apj) [Aug 2025]
+
 ## Freshworks
 
 - Event enablement, content planning and review, workshop planning – [Freshworks Developer Summit 2023, Bangalore](https://www.freshworks.com/events/developer-summit-bangalore-2023/) [Jun 2023]
